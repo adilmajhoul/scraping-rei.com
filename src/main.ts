@@ -2,6 +2,7 @@
 import * as cheerio from "cheerio";
 
 // --------------------EXTRACTION PROCESS-------------------------
+
 interface ScrapedCompany {
   company: string;
   website: string;
@@ -21,24 +22,46 @@ interface ScrapedCompany {
   source_of_data: string;
 }
 
-// async function toScrapOrNot(company): Promise<boolean> {
-//   // TODO
-
-//   // this functions will check if the company is already in the database or not
-//   const isInDatabase = await checkDatabase(company);
-//   if (isInDatabase) return false;
-
-//   // check if the company funded in the last month and half
-//   const isRecentlyFunded = await checkFundingDate(company);
-//   if (!isRecentlyFunded) return false;
-
-//   // check if the company is new (fresh blood means better leads and better revenue for our clients)
-
-//   // i need to add more conditions to make our service more special and our clients will love and willing to pay (we should not bomb the clients with trash data)
-
-//   return true || false;
+/**
+ * Scrapes blogs for startup lists and collects company names.
+ *
+ * @param {type} site - the website to scrape
+ * @return {Promise<string[]>} an array of company names
+ */
+// async function collectCompanyNamesFrom_______(site): Promise<string[]> {
+// return companies[]
 // }
 
+/**
+ * This functions will determine if the company is a good scrap or not
+ *
+ * @param {string} companyUrl - the URL of the company to check
+ * @return {Promise<boolean>} true if the company should be scrapped, false otherwise
+ */
+async function toScrapOrNot(companyUrl: string): Promise<boolean> {
+  //   // TODO
+
+  //   // this functions will check if the company is already in the database or not
+  // const isInDatabase = await checkDatabase(company);
+  // if (isInDatabase) return false;
+
+  //   // check if the company funded in the last month and half
+  // const isRecentlyFunded = await checkFundingDate(company);
+  // if (!isRecentlyFunded) return false;
+
+  //   // check if the company is new (fresh blood means better leads and better revenue for our clients)
+
+  //   // i need to add more conditions to make our service more special and our clients will love and willing to pay (we should not bomb the clients with trash data)
+
+  return true || false;
+}
+
+/**
+ * Scrapes a Crunchbase URL to extract company information.
+ *
+ * @param {string} url - the URL to scrape (default is an empty string)
+ * @return {Promise<ScrapedCompany>} the scraped company information
+ */
 async function scrapeCrunchbase(url: string = ""): Promise<ScrapedCompany> {
   const response = await fetch(url);
   const html = await response.text();
