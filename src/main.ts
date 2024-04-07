@@ -21,10 +21,29 @@ interface ScrapedCompany {
   source_of_data: string;
 }
 
+// async function toScrapOrNot(company): Promise<boolean> {
+//   // TODO
+
+//   // this functions will check if the company is already in the database or not
+//   const isInDatabase = await checkDatabase(company);
+//   if (isInDatabase) return false;
+
+//   // check if the company funded in the last month and half
+//   const isRecentlyFunded = await checkFundingDate(company);
+//   if (!isRecentlyFunded) return false;
+
+//   // check if the company is new (fresh blood means better leads and better revenue for our clients)
+
+//   // i need to add more conditions to make our service more special and our clients will love and willing to pay (we should not bomb the clients with trash data)
+
+//   return true || false;
+// }
+
 async function scrapeCrunchbase(url: string = ""): Promise<ScrapedCompany> {
   const response = await fetch(url);
   const html = await response.text();
   const $ = cheerio.load(html);
+  console.log(html);
 
   const company = $(
     "body > chrome > div > mat-sidenav-container > mat-sidenav-content > div > ng-component > entity-v2 > page-layout > div > div > profile-header > div > header > div > div > div > div.identifier-nav > div.identifier-nav-title.ng-star-inserted > h1"
@@ -69,6 +88,8 @@ async function scrapeCrunchbase(url: string = ""): Promise<ScrapedCompany> {
 }
 
 scrapeCrunchbase("https://www.crunchbase.com/organization/imageryst");
+
+console.log(333333333333333);
 
 // ---------------------INITIAL SEARCH PROCESS-------------------------
 // take search query as input
