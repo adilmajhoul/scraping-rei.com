@@ -8,7 +8,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "bun --watch main.ts "
+    "dev": "bun --watch ./src/main.ts "
   },
   "type": "module",
   "dependencies": {
