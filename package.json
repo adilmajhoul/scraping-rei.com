@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "puppeteer": "^22.6.3"
   }
 }
