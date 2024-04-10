@@ -94,6 +94,8 @@ async function parseContent(html, fields) {
  * @return {Promise} A promise that resolves when all content pages are parsed
  */
 async function parseAllContentPages(links) {
+  console.log('🚀 ~ parseAllContentPages ~ links:', links);
+  let products = [];
   for (const link of links) {
     console.log(`🚀 ~ contentPageLoop ~ link: ${link}`);
     const { html } = await getPage(BASEURLPRODUCT + link);
@@ -103,10 +105,13 @@ async function parseAllContentPages(links) {
       price: 'span#buy-box-product-price',
       sku: 'span#product-item-number',
     });
-    console.log(`🚀 ~ contentPageLoop ~ product: ${JSON.stringify(product)}`);
 
-    return product;
+    products.push(product);
+
+    console.log(`🚀 ~ contentPageLoop ~ product: ${JSON.stringify(product)}`);
   }
+
+  return products;
 }
 
 /**
@@ -119,6 +124,7 @@ async function parseAllContentPages(links) {
 async function writeProductsToJson(products, filePath) {
   // If file already exists, read existing products and concatenate with new products
   let existingProducts = [];
+
   if (fs.existsSync(filePath)) {
     const json = fs.readFileSync(filePath, 'utf8');
     existingProducts = JSON.parse(json);
@@ -139,21 +145,17 @@ async function writeProductsToJson(products, filePath) {
  */
 async function paginationLoop(url) {
   url = BASEURLPAGINATION + url;
-  let products = [];
 
   while (true) {
     const { html, nextPageUrl } = await getPage(url);
 
     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
 
-    const product = await parseAllContentPages(productLinks);
-    products = products.concat(product);
+    const products = await parseAllContentPages(productLinks);
 
     // Write products to JSON file
     const filePath = path.join(__dirname, 'products.json');
     await writeProductsToJson(products, filePath);
-
-    products = [];
 
     if (!nextPageUrl) {
       break;
@@ -163,24 +165,6 @@ async function paginationLoop(url) {
     }
   }
 }
-
-// async function paginationLoop(url) {
-//   url = BASEURLPAGINATION + url;
-//   while (true) {
-//     const { html, nextPageUrl } = await getPage(url);
-
-//     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
-
-//     const product = await parseAllContentPages(productLinks);
-
-//     if (!nextPageUrl) {
-//       break;
-//     } else {
-//       url = BASEURLPAGINATION + nextPageUrl;
-//       console.log(url);
-//     }
-//   }
-// }
 
 (async function main() {
   // const { html } = await getPage(

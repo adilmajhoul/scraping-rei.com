@@ -5,9 +5,299 @@
     "sku": "Item #213141"
   },
   {
+    "name": "REI Co-op Pack Duffel Bag",
+    "price": " $49.95",
+    "sku": "Item #118870"
+  },
+  {
+    "name": "Topo Designs Global Travel Bag 30L",
+    "price": " $199.00",
+    "sku": "Item #228169"
+  },
+  {
+    "name": "Arc'teryx Aerios 30 Pack - Men's",
+    "price": " $141.93",
+    "sku": "Item #216646"
+  },
+  {
+    "name": "Sea to Summit Ultra-Sil Travel Day Pack",
+    "price": " $44.95",
+    "sku": "Item #218323"
+  },
+  {
+    "name": "Osprey Talon 11 Pack - Men's",
+    "price": " $140.00",
+    "sku": "Item #184942"
+  },
+  {
+    "name": "CamelBak Crux 3L Reservoir - 3 Liters",
+    "price": " $39.00",
+    "sku": "Item #108365"
+  },
+  {
+    "name": "Osprey Talon Pro 20 Pack - Men's",
+    "price": " $200.00",
+    "sku": "Item #231468"
+  },
+  {
+    "name": "REI Co-op Traverse 32 Pack - Men's",
+    "price": " $159.00",
+    "sku": "Item #185567"
+  },
+  {
+    "name": "SealLine Big Fork Dry Pack - 30 Liters",
+    "price": " $174.95",
+    "sku": "Item #150130"
+  },
+  {
+    "name": "Sherpani Avalon Daypack - Women's",
+    "price": " $69.93",
+    "sku": "Item #205463"
+  },
+  {
+    "name": "MYSTERY RANCH 2 Day EDC Pack",
+    "price": " $189.00",
+    "sku": "Item #231863"
+  },
+  {
+    "name": "Granite Gear Blaze 60 Pack - Men's",
+    "price": " $299.95",
+    "sku": "Item #146630"
+  },
+  {
+    "name": "REI Co-op Traverse 32 Pack - Women's",
+    "price": " $159.00",
+    "sku": "Item #185568"
+  },
+  {
+    "name": "Osprey Tempest 34 Pack - Women's",
+    "price": " $200.00",
+    "sku": "Item #184950"
+  },
+  {
+    "name": "Osprey Talon 44 Pack - Men's",
+    "price": " $220.00",
+    "sku": "Item #184887"
+  },
+  {
+    "name": "CamelBak Classic Light Hydration Pack",
+    "price": " $75.00",
+    "sku": "Item #185764"
+  },
+  {
+    "name": "Osprey Talon Velocity 20 Pack - Men's",
+    "price": " $180.00",
+    "sku": "Item #231470"
+  },
+  {
+    "name": "Osprey Kestrel 58 Pack - Men's",
+    "price": " $240.00",
+    "sku": "Item #218553"
+  },
+  {
+    "name": "Gregory Paragon 68 Pack - Men's",
+    "price": " $279.95",
+    "sku": "Item #165336"
+  },
+  {
+    "name": "Osprey AirPorter LZ Pack Duffel - Medium",
+    "price": " $65.00",
+    "sku": "Item #218575"
+  },
+  {
+    "name": "Osprey Atmos AG 50 Pack - Men's",
+    "price": " $315.00",
+    "sku": "Item #201301"
+  },
+  {
+    "name": "Gregory Juno 24 H2O Hydration Pack - Women's",
+    "price": " $169.95",
+    "sku": "Item #165346"
+  },
+  {
+    "name": "Gregory Deva 80 Pro Pack - Women's",
+    "price": " $399.95",
+    "sku": "Item #203243"
+  },
+  {
+    "name": "Arc'teryx Aerios 30 Pack - Women's",
+    "price": " $141.93",
+    "sku": "Item #216648"
+  },
+  {
+    "name": "Osprey Kyte 48 Pack - Women's",
+    "price": " $220.00",
+    "sku": "Item #218554"
+  },
+  {
+    "name": "Sea to Summit Big River Dry Pack - 50 L",
+    "price": " $169.95",
+    "sku": "Item #220561"
+  },
+  {
+    "name": "REI Co-op Traverse 60 Pack - Women's",
+    "price": " $259.00",
+    "sku": "Item #185561"
+  },
+  {
+    "name": "Osprey Skimmer 16 Hydration Pack - Women's",
+    "price": " $110.00",
+    "sku": "Item #218565"
+  },
+  {
+    "name": "Backcountry Access Float 22 Avalanche Airbag Pack",
+    "price": " $384.93",
+    "sku": "Item #138368"
+  },
+  {
     "name": "MYSTERY RANCH Coulee 20 Pack - Women's",
     "price": " $179.00",
     "sku": "Item #218236"
+  },
+  {
+    "name": "NEMO Vantage 26 L Pack",
+    "price": " $199.95",
+    "sku": "Item #229448"
+  },
+  {
+    "name": "REI Co-op Duck's Back Rain Cover - Small",
+    "price": " $29.95",
+    "sku": "Item #168209"
+  },
+  {
+    "name": "Gregory Raincover 50-80 L",
+    "price": " $39.95",
+    "sku": "Item #203248"
+  },
+  {
+    "name": "GOT BAG RollTop Lite 2.0 Pack",
+    "price": " $149.00",
+    "sku": "Item #234330"
+  },
+  {
+    "name": "Osprey Hydraulics LT Reservoir - 1.5 Liters",
+    "price": " $44.00",
+    "sku": "Item #218579"
+  },
+  {
+    "name": "Gregory Zulu 24 LT Pack - Men's",
+    "price": " $149.95",
+    "sku": "Item #231829"
+  },
+  {
+    "name": "Osprey Ace 50 Pack - Kids'",
+    "price": " $190.00",
+    "sku": "Item #238136"
+  },
+  {
+    "name": "Granite Gear Crown3 60 Pack - Women's",
+    "price": " $239.95",
+    "sku": "Item #203002"
+  },
+  {
+    "name": "MYSTERY RANCH Mission Rover 45 Pack",
+    "price": " $249.00",
+    "sku": "Item #202570"
+  },
+  {
+    "name": "REI Co-op Durable Stuff Sack ",
+    "price": " $11.95",
+    "sku": "Item #175323"
+  },
+  {
+    "name": "Osprey Renn 50 Pack - Women's",
+    "price": " $180.00",
+    "sku": "Item #231466"
+  },
+  {
+    "name": "CamelBak Octane 22 Hydration Pack",
+    "price": " $170.00",
+    "sku": "Item #217288"
+  },
+  {
+    "name": "Pacsafe X Anti-Theft 20 L Pack",
+    "price": " $169.95",
+    "sku": "Item #219491"
+  },
+  {
+    "name": "REI Co-op Ruckpack 28 Recycled Daypack - Women's",
+    "price": " $129.00",
+    "sku": "Item #176991"
+  },
+  {
+    "name": "Osprey Daylite Pack Special Edition",
+    "price": " $65.00",
+    "sku": "Item #188192"
+  },
+  {
+    "name": "Platypus Big Zip EVO Reservoir - 3 Liters",
+    "price": " $49.95",
+    "sku": "Item #145558"
+  },
+  {
+    "name": "Gregory Deva 60 Pack - Women's",
+    "price": " $329.95",
+    "sku": "Item #203240"
+  },
+  {
+    "name": "Sherpani Sojourn Tote Pack - Women's",
+    "price": " $72.93",
+    "sku": "Item #205465"
+  },
+  {
+    "name": "Osprey Hydraulics Reservoir - 2 Liters",
+    "price": " $52.00",
+    "sku": "Item #218582"
+  },
+  {
+    "name": "Deuter Aircontact Core 50 + 10 Pack - Men's",
+    "price": " $230.00",
+    "sku": "Item #205556"
+  },
+  {
+    "name": "REI Co-op Ditty Sacks - Set of 3",
+    "price": " $22.95",
+    "sku": "Item #175364"
+  },
+  {
+    "name": "Black Diamond Distance 8 Hydration Pack",
+    "price": " $159.95",
+    "sku": "Item #217715"
+  },
+  {
+    "name": "Osprey Atmos AG LT 65 Pack - Men's",
+    "price": " $290.00",
+    "sku": "Item #210155"
+  },
+  {
+    "name": "Osprey Raven 10 Hydration Pack - Women's",
+    "price": " $165.00",
+    "sku": "Item #218248"
+  },
+  {
+    "name": "Patagonia Refugito 18 L Daypack - Kids'",
+    "price": " $79.00",
+    "sku": "Item #216128"
+  },
+  {
+    "name": "MYSTERY RANCH Gallagator Pack",
+    "price": " $61.93",
+    "sku": "Item #218235"
+  },
+  {
+    "name": "Osprey Stratos 36 Pack - Men's",
+    "price": " $220.00",
+    "sku": "Item #201311"
+  },
+  {
+    "name": "Sea to Summit Ultra-Sil Dry Bag - Set of 3",
+    "price": " $69.95",
+    "sku": "Item #218733"
+  },
+  {
+    "name": "Cotopaxi Tasra Del Dia 16L Pack",
+    "price": " $90.00",
+    "sku": "Item #139982"
   },
   {
     "name": "Deuter Speed Lite 28 SL Pack - Women's",
@@ -15,9 +305,299 @@
     "sku": "Item #205768"
   },
   {
+    "name": "Deuter Speed Lite CV 23 SL Pack - Women's",
+    "price": " $120.00",
+    "sku": "Item #205767"
+  },
+  {
+    "name": "Sea to Summit Big River Dry Pack - 75 L",
+    "price": " $199.95",
+    "sku": "Item #220562"
+  },
+  {
+    "name": "Osprey Ariel 65 Pack - Women's",
+    "price": " $320.00",
+    "sku": "Item #177499"
+  },
+  {
+    "name": "The North Face Surge Pack - Women's",
+    "price": " $139.00",
+    "sku": "Item #188901"
+  },
+  {
+    "name": "Gregory Deva 70 Pack - Women's",
+    "price": " $227.73",
+    "sku": "Item #222453"
+  },
+  {
+    "name": "Chrome Corbet 24 L Pack",
+    "price": " $135.00",
+    "sku": "Item #232624"
+  },
+  {
+    "name": "Osprey Ariel 55 Pack - Women's",
+    "price": " $300.00",
+    "sku": "Item #177498"
+  },
+  {
+    "name": "Granite Gear Blaze 60 Pack - Women's",
+    "price": " $299.95",
+    "sku": "Item #146742"
+  },
+  {
+    "name": "Gregory Juno 30 H2O Hydration Pack - Women's",
+    "price": " $179.95",
+    "sku": "Item #165347"
+  },
+  {
+    "name": "Sherpani Slone Convertible Pack - Women's",
+    "price": " $44.93",
+    "sku": "Item #205461"
+  },
+  {
+    "name": "Fjallraven Kajka 35 Travel Pack",
+    "price": " $275.00",
+    "sku": "Item #216380"
+  },
+  {
+    "name": "Osprey Atmos AG LT 50 Pack - Men's",
+    "price": " $270.00",
+    "sku": "Item #210154"
+  },
+  {
+    "name": "Backcountry Access Float 42 Avalanche Airbag Pack",
+    "price": " $524.93",
+    "sku": "Item #138370"
+  },
+  {
+    "name": "Topo Designs Rover Pack Classic",
+    "price": " $99.00",
+    "sku": "Item #169807"
+  },
+  {
+    "name": "Hyperlite Mountain Gear Stuff Pack",
+    "price": " $129.00",
+    "sku": "Item #218859"
+  },
+  {
+    "name": "Osprey UltraLight Pack Raincover - Large",
+    "price": " $45.00",
+    "sku": "Item #218571"
+  },
+  {
+    "name": "CamelBak Crux 2L Reservoir - 2 Liters",
+    "price": " $37.00",
+    "sku": "Item #108367"
+  },
+  {
+    "name": "REI Co-op Sleeping Bag Storage Sack",
+    "price": " $21.95",
+    "sku": "Item #112305"
+  },
+  {
+    "name": "MYSTERY RANCH Rip Ruck 24 Pack",
+    "price": " $169.00",
+    "sku": "Item #177629"
+  },
+  {
+    "name": "Deuter Aircontact Ultra 45+5 SL Pack - Women's",
+    "price": " $250.00",
+    "sku": "Item #232629"
+  },
+  {
+    "name": "Osprey Archeon 30 Pack",
+    "price": " $250.00",
+    "sku": "Item #230181"
+  },
+  {
+    "name": "Chrome Hondo 18 L Pack",
+    "price": " $120.00",
+    "sku": "Item #232625"
+  },
+  {
+    "name": "MYSTERY RANCH Coulee 20 Pack - Men's",
+    "price": " $179.00",
+    "sku": "Item #218233"
+  },
+  {
+    "name": "Topo Designs Light Pack",
+    "price": " $79.00",
+    "sku": "Item #186487"
+  },
+  {
+    "name": "Osprey Parsec 26 Pack",
+    "price": " $170.00",
+    "sku": "Item #210348"
+  },
+  {
+    "name": "Gregory Zulu 40 Pack - Men's",
+    "price": " $141.73",
+    "sku": "Item #222462"
+  },
+  {
+    "name": "Deuter Trail 28 SL Pack - Women's",
+    "price": " $150.00",
+    "sku": "Item #218760"
+  },
+  {
+    "name": "Osprey Ozone Laptop Pack",
+    "price": " $170.00",
+    "sku": "Item #210347"
+  },
+  {
+    "name": "Gregory Focal 58 Pack - Men's",
+    "price": " $249.95",
+    "sku": "Item #203234"
+  },
+  {
     "name": "Exped Typhoon 15 Pack",
     "price": " $89.95",
     "sku": "Item #202679"
+  },
+  {
+    "name": "SealLine Black Canyon Dry Pack - 115 Liters",
+    "price": " $279.95",
+    "sku": "Item #150161"
+  },
+  {
+    "name": "Osprey Hydraulics LT Reservoir - 2.5 Liters",
+    "price": " $46.00",
+    "sku": "Item #218580"
+  },
+  {
+    "name": "Sea to Summit eVac Dry Bag",
+    "price": " $26.95",
+    "sku": "Item #218731"
+  },
+  {
+    "name": "Osprey Aether Plus 85 Pack - Men's",
+    "price": " $440.00",
+    "sku": "Item #177497"
+  },
+  {
+    "name": "REI Co-op Packmod Rainshield Pocket",
+    "price": " $19.95",
+    "sku": "Item #217465"
+  },
+  {
+    "name": "Osprey Daylite Plus Pack Special Edition",
+    "price": " $75.00",
+    "sku": "Item #188191"
+  },
+  {
+    "name": "Deuter Speed Lite 30 Pack - Men's",
+    "price": " $150.00",
+    "sku": "Item #205766"
+  },
+  {
+    "name": "Exped Lightning 45 Pack - Women's",
+    "price": " $209.95",
+    "sku": "Item #231102"
+  },
+  {
+    "name": "GOT BAG DayPack 2.0",
+    "price": " $89.00",
+    "sku": "Item #234329"
+  },
+  {
+    "name": "REI Co-op Duck's Back Rain Cover - Large",
+    "price": " $39.95",
+    "sku": "Item #168207"
+  },
+  {
+    "name": "Big Agnes Pumphouse Ultra",
+    "price": " $39.95",
+    "sku": "Item #115082"
+  },
+  {
+    "name": "Osprey Tempest Pro 30 Pack - Women's",
+    "price": " $230.00",
+    "sku": "Item #231473"
+  },
+  {
+    "name": "Sea to Summit Ultra-Sil Stuff Sack - Set of 3",
+    "price": " $54.95",
+    "sku": "Item #218710"
+  },
+  {
+    "name": "Osprey AirPorter LZ Pack Duffel - Large",
+    "price": " $70.00",
+    "sku": "Item #218576"
+  },
+  {
+    "name": "REI Co-op Stuff Travel Pack - 20L",
+    "price": " $39.95",
+    "sku": "Item #195313"
+  },
+  {
+    "name": "Patagonia Refugito 12 L Daypack - Kids'",
+    "price": " $69.00",
+    "sku": "Item #216127"
+  },
+  {
+    "name": "Osprey Tempest Pro 20 Pack - Women's",
+    "price": " $200.00",
+    "sku": "Item #231472"
+  },
+  {
+    "name": "Osprey Aether Pro 75 Pack - Men's",
+    "price": " $400.00",
+    "sku": "Item #231461"
+  },
+  {
+    "name": "Arc'teryx Granville Zip 16 Pack",
+    "price": " $200.00",
+    "sku": "Item #167540"
+  },
+  {
+    "name": "Gregory Wander 70 Pack - Kids'",
+    "price": " $199.95",
+    "sku": "Item #231828"
+  },
+  {
+    "name": "Black Diamond Distance 22 Pack - Men's",
+    "price": " $199.95",
+    "sku": "Item #216872"
+  },
+  {
+    "name": "MYSTERY RANCH 3-Way 18 Expandable Briefcase",
+    "price": " $199.00",
+    "sku": "Item #223621"
+  },
+  {
+    "name": "Mountainsmith Zerk 40 Pack",
+    "price": " $219.95",
+    "sku": "Item #232485"
+  },
+  {
+    "name": "Osprey Ariel Plus 60 Pack - Women's",
+    "price": " $390.00",
+    "sku": "Item #177500"
+  },
+  {
+    "name": "REI Co-op Flash 18 Pack - Latino Outdoors Edition",
+    "price": " $27.93",
+    "sku": "Item #226763"
+  },
+  {
+    "name": "Topo Designs Global Briefcase",
+    "price": " $129.00",
+    "sku": "Item #231070"
+  },
+  {
+    "name": "Fjallraven Kanken Mini Pack",
+    "price": " $80.00",
+    "sku": "Item #123736"
+  },
+  {
+    "name": "Fjallraven High Coast Foldsack 24 Pack",
+    "price": " $100.00",
+    "sku": "Item #221514"
+  },
+  {
+    "name": "Osprey Syncro 5 Hydration Pack - Men's",
+    "price": " $145.00",
+    "sku": "Item #218256"
   },
   {
     "name": "Gregory Paragon 48 Pack - Men's",
@@ -25,9 +605,299 @@
     "sku": "Item #165334"
   },
   {
+    "name": "Gregory Miko 25 Pack - Men's",
+    "price": " $139.95",
+    "sku": "Item #218014"
+  },
+  {
+    "name": "Herschel Supply Co. Pop Quiz Pack",
+    "price": " $95.00",
+    "sku": "Item #221462"
+  },
+  {
+    "name": "Arc'teryx Mantis 30 Pack",
+    "price": " $180.00",
+    "sku": "Item #228506"
+  },
+  {
+    "name": "Arc'teryx Aerios 18 Pack",
+    "price": " $180.00",
+    "sku": "Item #228109"
+  },
+  {
+    "name": "Osprey Ultralight Pack Liner - Medium",
+    "price": " $45.00",
+    "sku": "Item #218578"
+  },
+  {
+    "name": "Osprey Tropos 32 Pack",
+    "price": " $180.00",
+    "sku": "Item #210349"
+  },
+  {
+    "name": "Deuter Speed Lite CV 25 Pack - Men's",
+    "price": " $120.00",
+    "sku": "Item #205765"
+  },
+  {
+    "name": "Osprey Kamber 20 Snow Pack - Men's",
+    "price": " $180.00",
+    "sku": "Item #193747"
+  },
+  {
+    "name": "Pacsafe X Anti-Theft 16\" Commuter Pack",
+    "price": " $179.95",
+    "sku": "Item #205770"
+  },
+  {
+    "name": "Gregory Juno 30 H2O Pack - Women's Plus Sizes",
+    "price": " $179.95",
+    "sku": "Item #193834"
+  },
+  {
+    "name": "Osprey Raven 14 Hydration Pack - Women's",
+    "price": " $175.00",
+    "sku": "Item #218257"
+  },
+  {
+    "name": "Osprey Kitsuma 7 Hydration Pack - Women's",
+    "price": " $90.00",
+    "sku": "Item #218247"
+  },
+  {
+    "name": "Gregory Wander 50 Pack - Kids'",
+    "price": " $189.95",
+    "sku": "Item #231827"
+  },
+  {
+    "name": "Sherpani Juno Pack - Women's",
+    "price": " $100.00",
+    "sku": "Item #230771"
+  },
+  {
+    "name": "Osprey Metron 22 Roll-Top Pack",
+    "price": " $170.00",
+    "sku": "Item #210802"
+  },
+  {
+    "name": "Deuter Speed Lite 13 Pack",
+    "price": " $70.00",
+    "sku": "Item #205763"
+  },
+  {
+    "name": "Gregory Baltoro 100 Pro Pack - Men's",
+    "price": " $419.95",
+    "sku": "Item #203237"
+  },
+  {
+    "name": "Gregory Jade 38 Pack - Women's",
+    "price": " $141.73",
+    "sku": "Item #222460"
+  },
+  {
+    "name": "Cotopaxi Batac 16 L Del Dia Pack",
+    "price": " $65.00",
+    "sku": "Item #216886"
+  },
+  {
+    "name": "Osprey Rook 50 Pack - Men's",
+    "price": " $180.00",
+    "sku": "Item #231462"
+  },
+  {
+    "name": "Ultimate Direction Fastpack 30 Pack",
+    "price": " $179.95",
+    "sku": "Item #206016"
+  },
+  {
+    "name": "Sherpani Cabo Travel Pack - Women's",
+    "price": " $85.00",
+    "sku": "Item #230775"
+  },
+  {
+    "name": "CamelBak Reservoir Cleaning Kit",
+    "price": " $22.00",
+    "sku": "Item #171318"
+  },
+  {
+    "name": "Osprey Ariel Pro 75 Pack - Women's",
+    "price": " $400.00",
+    "sku": "Item #231465"
+  },
+  {
+    "name": "Osprey UltraLight Raincover - Medium",
+    "price": " $40.00",
+    "sku": "Item #218572"
+  },
+  {
+    "name": "Osprey Katari 3 Hydration Pack - Men's",
+    "price": " $80.00",
+    "sku": "Item #218254"
+  },
+  {
+    "name": "Arc'teryx Bora 65 Pack - Men's",
+    "price": " $320.00",
+    "sku": "Item #203140"
+  },
+  {
+    "name": "Pacsafe LS350 Pack",
+    "price": " $159.95",
+    "sku": "Item #231239"
+  },
+  {
+    "name": "Gregory Nano 18 H2O Hydration Pack - Plus Size",
+    "price": " $79.95",
+    "sku": "Item #218022"
+  },
+  {
     "name": "Osprey Hikelite 26 Pack",
     "price": " $115.00",
     "sku": "Item #218558"
+  },
+  {
+    "name": "Gregory Kalmia 60 Pack - Women's",
+    "price": " $309.95",
+    "sku": "Item #186662"
+  },
+  {
+    "name": "Osprey Hydraulics Bite Valve",
+    "price": " $9.00",
+    "sku": "Item #218588"
+  },
+  {
+    "name": "Gregory Swift 16 H2O Hydration Pack - Women's",
+    "price": " $109.95",
+    "sku": "Item #203246"
+  },
+  {
+    "name": "Osprey Eja Pro 55 Pack - Women's",
+    "price": " $290.00",
+    "sku": "Item #218556"
+  },
+  {
+    "name": "Gregory Deva 70 Pack - Women's",
+    "price": " $359.95",
+    "sku": "Item #203241"
+  },
+  {
+    "name": "REI Co-op Packmod Accessory Straps - Package of 2",
+    "price": " $14.95",
+    "sku": "Item #217461"
+  },
+  {
+    "name": "DAKINE Heli Pro 20L Snow Pack - Women's",
+    "price": " $47.83",
+    "sku": "Item #179010"
+  },
+  {
+    "name": "Gregory Raincover 50-80 L",
+    "price": " $39.95",
+    "sku": "Item #232531"
+  },
+  {
+    "name": "Gregory Hydro Hydration Reservoir - 2 Liters",
+    "price": " $29.95",
+    "sku": "Item #218028"
+  },
+  {
+    "name": "Picture Organic Clothing Komit 18 Snow Pack",
+    "price": " $68.83",
+    "sku": "Item #223677"
+  },
+  {
+    "name": "CamelBak Rogue Light 7 Hydration Pack",
+    "price": " $90.00",
+    "sku": "Item #237679"
+  },
+  {
+    "name": "Osprey Aura AG LT 50 Pack - Women's",
+    "price": " $270.00",
+    "sku": "Item #210156"
+  },
+  {
+    "name": "Gregory Nano 24 Daypack",
+    "price": " $89.95",
+    "sku": "Item #218010"
+  },
+  {
+    "name": "Gregory Citro 30 H2O Hydration Pack - Men's",
+    "price": " $179.95",
+    "sku": "Item #165345"
+  },
+  {
+    "name": "The North Face Isabella 3.0 Pack - Women's",
+    "price": " $89.00",
+    "sku": "Item #217386"
+  },
+  {
+    "name": "Exped Splash 15 Pack",
+    "price": " $39.95",
+    "sku": "Item #202678"
+  },
+  {
+    "name": "Osprey Tempest Pro 40 Pack - Women's",
+    "price": " $260.00",
+    "sku": "Item #231464"
+  },
+  {
+    "name": "Osprey Talon Pro 40 Pack - Men's",
+    "price": " $260.00",
+    "sku": "Item #231460"
+  },
+  {
+    "name": "Fjallraven Skule 28 Pack",
+    "price": " $100.00",
+    "sku": "Item #210015"
+  },
+  {
+    "name": "MYSTERY RANCH Rip Ruck 15 Pack",
+    "price": " $129.00",
+    "sku": "Item #177628"
+  },
+  {
+    "name": "CamelBak Crux 1.5L Reservoir - 1.5 Liters",
+    "price": " $33.00",
+    "sku": "Item #108366"
+  },
+  {
+    "name": "Osprey Aura AG 50 Pack - Women's",
+    "price": " $315.00",
+    "sku": "Item #201304"
+  },
+  {
+    "name": "Osprey Tempest 9 Pack - Women's",
+    "price": " $140.00",
+    "sku": "Item #184951"
+  },
+  {
+    "name": "REI Co-op Pack In Pack Out Pouches - Set of 3",
+    "price": " $24.95",
+    "sku": "Item #196109"
+  },
+  {
+    "name": "Deuter Aircontact Ultra 50+5 Pack - Men's",
+    "price": " $250.00",
+    "sku": "Item #232628"
+  },
+  {
+    "name": "Deuter Aircontact Core 60 + 10 SL Pack - Women's",
+    "price": " $250.00",
+    "sku": "Item #205559"
+  },
+  {
+    "name": "Sherpani Soleil AT Bag - Women's",
+    "price": " $135.00",
+    "sku": "Item #226953"
+  },
+  {
+    "name": "Bottle Bright Cleaning Tablets - Package of 12",
+    "price": " $8.00",
+    "sku": "Item #122917"
+  },
+  {
+    "name": "Osprey HydraJet 12 Hydration Pack - Kids'",
+    "price": " $80.00",
+    "sku": "Item #218570"
   },
   {
     "name": "Osprey Kyte 58 Pack - Women's",
@@ -35,9 +905,299 @@
     "sku": "Item #218555"
   },
   {
+    "name": "Osprey Siskin 12 Hydration Pack - Men's",
+    "price": " $140.00",
+    "sku": "Item #218251"
+  },
+  {
+    "name": "CamelBak Arete 14 Hydration Pack",
+    "price": " $65.00",
+    "sku": "Item #201806"
+  },
+  {
+    "name": "Osprey Talon Pro 30 Pack - Men's",
+    "price": " $230.00",
+    "sku": "Item #231469"
+  },
+  {
+    "name": "NEMO Vantage 30 L Pack",
+    "price": " $229.95",
+    "sku": "Item #229449"
+  },
+  {
+    "name": "Osprey AirPorter LZ Pack Duffel - Small",
+    "price": " $60.00",
+    "sku": "Item #218574"
+  },
+  {
+    "name": "Osprey Skarab 18 Hydration Pack - Men's",
+    "price": " $110.00",
+    "sku": "Item #218560"
+  },
+  {
+    "name": "SealLine Black Canyon Dry Pack - 65 Liters",
+    "price": " $259.95",
+    "sku": "Item #150162"
+  },
+  {
+    "name": "REI Co-op Packmod Mesh Pocket",
+    "price": " $14.95",
+    "sku": "Item #217464"
+  },
+  {
+    "name": "Osprey Archeon 24 Pack",
+    "price": " $200.00",
+    "sku": "Item #230120"
+  },
+  {
+    "name": "Osprey Ultralight Pack Liner - Large",
+    "price": " $50.00",
+    "sku": "Item #218577"
+  },
+  {
+    "name": "Gregory Amber 44 Pack - Women's",
+    "price": " $199.95",
+    "sku": "Item #231822"
+  },
+  {
+    "name": "Exped Typhoon 25 Pack",
+    "price": " $99.95",
+    "sku": "Item #202680"
+  },
+  {
+    "name": "REI Co-op Flash 18 Print Pack",
+    "price": " $49.95",
+    "sku": "Item #227952"
+  },
+  {
+    "name": "Sea to Summit eVac Compression Dry Bag HD",
+    "price": " $59.95",
+    "sku": "Item #218736"
+  },
+  {
+    "name": "Osprey Daylite Bears Ears Print Pack",
+    "price": " $65.00",
+    "sku": "Item #230184"
+  },
+  {
+    "name": "Gregory Stout 70 Pack - Men's",
+    "price": " $239.95",
+    "sku": "Item #231489"
+  },
+  {
+    "name": "REI Co-op Packmod Hipbelt Pocket",
+    "price": " $14.95",
+    "sku": "Item #217463"
+  },
+  {
+    "name": "Platypus Big Zip EVO Reservoir - 2 Liters",
+    "price": " $47.95",
+    "sku": "Item #145557"
+  },
+  {
+    "name": "Fjallraven Raven 20 Pack",
+    "price": " $100.00",
+    "sku": "Item #210012"
+  },
+  {
+    "name": "Osprey Katari 7 Hydration Pack - Men's",
+    "price": " $90.00",
+    "sku": "Item #218255"
+  },
+  {
+    "name": "NEMO Vantage 20 L Pack",
+    "price": " $179.95",
+    "sku": "Item #229447"
+  },
+  {
+    "name": "Gregory Targhee 24 Snow Pack - Women's",
+    "price": " $179.95",
+    "sku": "Item #224465"
+  },
+  {
+    "name": "REI Co-op Lightweight Stuff Sack ",
+    "price": " $11.95",
+    "sku": "Item #175324"
+  },
+  {
+    "name": "Osprey Raven 14 EF Hydration Pack - Women's",
+    "price": " $175.00",
+    "sku": "Item #229763"
+  },
+  {
+    "name": "Osprey Raptor 14 EF Hydration Pack - Men's",
+    "price": " $175.00",
+    "sku": "Item #229762"
+  },
+  {
+    "name": "Osprey Raptor 14 Hydration Pack - Men's",
+    "price": " $175.00",
+    "sku": "Item #218250"
+  },
+  {
+    "name": "Fjallraven Splitpack",
+    "price": " $175.00",
+    "sku": "Item #174500"
+  },
+  {
+    "name": "Osprey Raptor 10 Hydration Pack - Men's",
+    "price": " $165.00",
+    "sku": "Item #218245"
+  },
+  {
+    "name": "Osprey Arcane Large Day Bag",
+    "price": " $110.00",
+    "sku": "Item #167049"
+  },
+  {
     "name": "Osprey Archeon Chest Rig",
     "price": " $80.00",
     "sku": "Item #230119"
+  },
+  {
+    "name": "Osprey Sylva 12 Hydration Pack - Women's",
+    "price": " $160.00",
+    "sku": "Item #218259"
+  },
+  {
+    "name": "Osprey Talon 36 Pack - Men's",
+    "price": " $200.00",
+    "sku": "Item #184944"
+  },
+  {
+    "name": "Ortlieb Velocity PS Pack - 23L",
+    "price": " $160.00",
+    "sku": "Item #170690"
+  },
+  {
+    "name": "REI Co-op Link 15 L Hydration Pack",
+    "price": " $79.95",
+    "sku": "Item #201805"
+  },
+  {
+    "name": "REI Co-op Link 10 L Hydration Pack",
+    "price": " $79.95",
+    "sku": "Item #201804"
+  },
+  {
+    "name": "CamelBak Fusion 2 L Reservoir",
+    "price": " $55.00",
+    "sku": "Item #202977"
+  },
+  {
+    "name": "CamelBak Octane 16 Hydration Pack",
+    "price": " $150.00",
+    "sku": "Item #217287"
+  },
+  {
+    "name": "CamelBak Arete 18 Hydration Pack",
+    "price": " $75.00",
+    "sku": "Item #201807"
+  },
+  {
+    "name": "Ortlieb Velocity PS Pack - 17L",
+    "price": " $150.00",
+    "sku": "Item #170689"
+  },
+  {
+    "name": "Ultimate Direction Fastpack 20",
+    "price": " $149.95",
+    "sku": "Item #187814"
+  },
+  {
+    "name": "Osprey Hydraulics Bite Valve Cover",
+    "price": " $7.00",
+    "sku": "Item #218589"
+  },
+  {
+    "name": "Osprey Hydraulics Hose Magnet Kit",
+    "price": " $10.00",
+    "sku": "Item #218585"
+  },
+  {
+    "name": "Bottle Bright Cleaning Tablets - Bulk Pack",
+    "price": " $38.00",
+    "sku": "Item #232008"
+  },
+  {
+    "name": "Gregory Nano 20 Daypack",
+    "price": " $79.95",
+    "sku": "Item #218009"
+  },
+  {
+    "name": "Osprey Salida 12 Hydration Pack - Women's",
+    "price": " $140.00",
+    "sku": "Item #218258"
+  },
+  {
+    "name": "CamelBak Fourteener 24 Hydration Pack - Women's",
+    "price": " $140.00",
+    "sku": "Item #217289"
+  },
+  {
+    "name": "Matador Beast 18 Technical Pack",
+    "price": " $140.00",
+    "sku": "Item #204806"
+  },
+  {
+    "name": "Osprey Skarab 22 Hydration Pack - Men's",
+    "price": " $130.00",
+    "sku": "Item #218561"
+  },
+  {
+    "name": "Osprey Moki 1.5 Hydration Pack - Kids'",
+    "price": " $65.00",
+    "sku": "Item #218244"
+  },
+  {
+    "name": "Exped Stormrunner 15 Pack",
+    "price": " $129.95",
+    "sku": "Item #216470"
+  },
+  {
+    "name": "Gregory Swift 22 H2O Hydration Pack - Women's",
+    "price": " $129.95",
+    "sku": "Item #203247"
+  },
+  {
+    "name": "Gregory Inertia 24 H2O Hydration Pack - Men's",
+    "price": " $129.95",
+    "sku": "Item #203245"
+  },
+  {
+    "name": "Osprey Syncro 12 Hydration Pack - Men's",
+    "price": " $160.00",
+    "sku": "Item #218252"
+  },
+  {
+    "name": "REI Co-op Sternum Strap Replacement",
+    "price": " $4.95",
+    "sku": "Item #226727"
+  },
+  {
+    "name": "CamelBak Crux 2L Reservoir with Filtration Kit - 2 Liters",
+    "price": " $69.00",
+    "sku": "Item #200336"
+  },
+  {
+    "name": "Fjallraven Kanken No. 2 Laptop 15 Pack",
+    "price": " $155.00",
+    "sku": "Item #221515"
+  },
+  {
+    "name": "Gregory Bite Valve Cover",
+    "price": " $6.95",
+    "sku": "Item #184923"
+  },
+  {
+    "name": "Fjallraven Kanken Outlong Pack",
+    "price": " $155.00",
+    "sku": "Item #229451"
+  },
+  {
+    "name": "Cotopaxi Tago Drawstring Pack - Del Dia",
+    "price": " $40.00",
+    "sku": "Item #206708"
   },
   {
     "name": "Black Diamond Bbee 11 Pack",
@@ -45,9 +1205,299 @@
     "sku": "Item #188283"
   },
   {
+    "name": "REI Co-op Duck's Back Rain Cover - Extra-Large",
+    "price": " $41.95",
+    "sku": "Item #168210"
+  },
+  {
+    "name": "Deuter Schmusebar Pack - Kids'",
+    "price": " $45.00",
+    "sku": "Item #154872"
+  },
+  {
+    "name": "CamelBak Fusion 3 L Reservoir",
+    "price": " $57.00",
+    "sku": "Item #202975"
+  },
+  {
+    "name": "Two Wheel Gear Spin Pack Messenger",
+    "price": " $139.00",
+    "sku": "Item #220760"
+  },
+  {
+    "name": "Deuter AC Lite 24 Pack - Men's",
+    "price": " $110.00",
+    "sku": "Item #232630"
+  },
+  {
+    "name": "CamelBak Rim Runner X22 Hydration Pack - Men's",
+    "price": " $105.00",
+    "sku": "Item #238116"
+  },
+  {
+    "name": "CamelBak Big Bite Valves - Package of 4",
+    "price": " $17.00",
+    "sku": "Item #883846"
+  },
+  {
+    "name": "CamelBak Lobo Hydration Pack",
+    "price": " $100.00",
+    "sku": "Item #237675"
+  },
+  {
+    "name": "Sherpani Camden Tote Pack - Women's",
+    "price": " $100.00",
+    "sku": "Item #232737"
+  },
+  {
+    "name": "TYR Big Mesh Mummy Pack",
+    "price": " $20.00",
+    "sku": "Item #137297"
+  },
+  {
+    "name": "Fjallraven Kanken Rainbow Pack",
+    "price": " $95.00",
+    "sku": "Item #168976"
+  },
+  {
+    "name": "Snow Peak Peg Hammer Case",
+    "price": " $23.95",
+    "sku": "Item #229851"
+  },
+  {
+    "name": "Gregory Maya 20 Pack - Women's Plus Size",
+    "price": " $129.95",
+    "sku": "Item #218018"
+  },
+  {
+    "name": "CamelBak Cloud Walker 18 Hydration Pack",
+    "price": " $90.00",
+    "sku": "Item #201808"
+  },
+  {
+    "name": "Fjallraven Skule 20 Pack",
+    "price": " $85.00",
+    "sku": "Item #221517"
+  },
+  {
+    "name": "CamelBak Reservoir Filter Kit",
+    "price": " $42.00",
+    "sku": "Item #200338"
+  },
+  {
+    "name": "Picture Organic Clothing Komit 22 Snow Pack",
+    "price": " $83.83",
+    "sku": "Item #223678"
+  },
+  {
+    "name": "Gregory Nano 30 Daypack",
+    "price": " $99.95",
+    "sku": "Item #218011"
+  },
+  {
+    "name": "REI Co-op Stuff Travel Print Pack - 20L",
+    "price": " $39.95",
+    "sku": "Item #195314"
+  },
+  {
+    "name": "DAKINE Mission 25L Snow Pack - Women's",
+    "price": " $37.83",
+    "sku": "Item #157540"
+  },
+  {
+    "name": "Gregory Raincover 30-50 L",
+    "price": " $34.95",
+    "sku": "Item #232532"
+  },
+  {
+    "name": "Noso Mountain Patch",
+    "price": " $7.95",
+    "sku": "Item #215566"
+  },
+  {
+    "name": "Cotopaxi Luzon 18 L Del Dia Pack",
+    "price": " $60.00",
+    "sku": "Item #223459"
+  },
+  {
+    "name": "Platypus Bite Valve Cover",
+    "price": " $9.95",
+    "sku": "Item #147782"
+  },
+  {
+    "name": "Osprey StraightJacket Compression Sack",
+    "price": " $28.00",
+    "sku": "Item #218071"
+  },
+  {
+    "name": "Sea to Summit Utensil/Peg Bag",
+    "price": " $9.95",
+    "sku": "Item #112150"
+  },
+  {
+    "name": "DAKINE Lumbar Reservoir 2.0 - 2 Liters",
+    "price": " $55.00",
+    "sku": "Item #231268"
+  },
+  {
+    "name": "Gregory 3D Hydro Trek Hydration Reservoir - 3 Liters",
+    "price": " $54.95",
+    "sku": "Item #218026"
+  },
+  {
+    "name": "Mountainsmith Strapettes",
+    "price": " $27.95",
+    "sku": "Item #232581"
+  },
+  {
     "name": "Sea to Summit Mesh Stuff Sack - Set of 3",
     "price": " $39.95",
     "sku": "Item #218709"
+  },
+  {
+    "name": "KAVU Wombat Pack",
+    "price": " $44.93",
+    "sku": "Item #221425"
+  },
+  {
+    "name": "REI Co-op Packmod Hipbelt Extender",
+    "price": " $14.95",
+    "sku": "Item #217462"
+  },
+  {
+    "name": "CamelBak Bite Valve Cover",
+    "price": " $7.50",
+    "sku": "Item #709998"
+  },
+  {
+    "name": "Gregory Kalmia 50 Pack - Women's",
+    "price": " $289.95",
+    "sku": "Item #186663"
+  },
+  {
+    "name": "CamelBak Crux Insulated Tube",
+    "price": " $20.00",
+    "sku": "Item #108373"
+  },
+  {
+    "name": "Gregory Magnetic Bite Valve",
+    "price": " $9.95",
+    "sku": "Item #218029"
+  },
+  {
+    "name": "CamelBak High Flow Magnetic Tube Trap",
+    "price": " $14.00",
+    "sku": "Item #108376"
+  },
+  {
+    "name": "CamelBak Big Bite Valve",
+    "price": " $7.50",
+    "sku": "Item #637547"
+  },
+  {
+    "name": "Osprey Hydraulics Bite Valve Sheath - Package of 3",
+    "price": " $12.00",
+    "sku": "Item #218584"
+  },
+  {
+    "name": "Osprey Skarab 18 Hydration Pack - Men's",
+    "price": " $64.73",
+    "sku": "Item #229038"
+  },
+  {
+    "name": "Osprey Quick Connect Kit",
+    "price": " $12.00",
+    "sku": "Item #218587"
+  },
+  {
+    "name": "Noso Heart Patch",
+    "price": " $7.95",
+    "sku": "Item #215565"
+  },
+  {
+    "name": "Platypus HyFLO Bite Valve",
+    "price": " $7.95",
+    "sku": "Item #147783"
+  },
+  {
+    "name": "Gregory Quick Disconnect Kit",
+    "price": " $14.95",
+    "sku": "Item #171238"
+  },
+  {
+    "name": "Osprey Hydraulics Lumbar Reservoir - 1.5 Liters",
+    "price": " $42.00",
+    "sku": "Item #218583"
+  },
+  {
+    "name": "REI Co-op Flash 18 Pack - Pride Graphic Edition",
+    "price": " $49.95",
+    "sku": "Item #201963"
+  },
+  {
+    "name": "Osprey Radial Bike Commuter Pack",
+    "price": " $195.00",
+    "sku": "Item #155226"
+  },
+  {
+    "name": "CamelBak Crux Replacement Tube",
+    "price": " $14.00",
+    "sku": "Item #108374"
+  },
+  {
+    "name": "MYSTERY RANCH Quick-Attach Zoid Bag - Medium",
+    "price": " $24.00",
+    "sku": "Item #218239"
+  },
+  {
+    "name": "Noso Sun Patch",
+    "price": " $7.95",
+    "sku": "Item #215567"
+  },
+  {
+    "name": "Osprey Ultralight Dry Sack with Window",
+    "price": " $22.00",
+    "sku": "Item #218050"
+  },
+  {
+    "name": "Osprey Sternum Magnets - Package of 3",
+    "price": " $12.00",
+    "sku": "Item #218590"
+  },
+  {
+    "name": "Noso Starry Starry Night Patch",
+    "price": " $9.95",
+    "sku": "Item #228987"
+  },
+  {
+    "name": "CamelBak Reservoir Gravity Kit",
+    "price": " $17.00",
+    "sku": "Item #200339"
+  },
+  {
+    "name": "Osprey Kyte 38 Pack - Women's",
+    "price": " $200.00",
+    "sku": "Item #218559"
+  },
+  {
+    "name": "CamelBak Reservoir Dryer",
+    "price": " $14.00",
+    "sku": "Item #108300"
+  },
+  {
+    "name": "Noso Skull Patch",
+    "price": " $13.95",
+    "sku": "Item #228986"
+  },
+  {
+    "name": "Outdoor Afro + REI Co-op Patch",
+    "price": " $6.95",
+    "sku": "Item #209839"
+  },
+  {
+    "name": "Osprey Hydraulics Reservoir Hose",
+    "price": " $10.00",
+    "sku": "Item #218586"
   },
   {
     "name": "Noso Sasquatch Patch",
@@ -55,9 +1505,299 @@
     "sku": "Item #228985"
   },
   {
+    "name": "Noso Bear Patch",
+    "price": " $7.95",
+    "sku": "Item #215564"
+  },
+  {
+    "name": "CamelBak Arete 18 Hydration Pack",
+    "price": " $75.00",
+    "sku": "Item #238114"
+  },
+  {
+    "name": "CamelBak M.U.L.E. 12 Hydration Pack - Women's",
+    "price": " $130.00",
+    "sku": "Item #237681"
+  },
+  {
+    "name": "Deuter AC Lite 22 SL Pack - Women's",
+    "price": " $110.00",
+    "sku": "Item #232632"
+  },
+  {
+    "name": "Deuter Futura Pro Jaypack 36 Pack - Men's",
+    "price": " $300.00",
+    "sku": "Item #232631"
+  },
+  {
+    "name": "Chrome Urban Ex Pack 30 L",
+    "price": " $165.00",
+    "sku": "Item #232627"
+  },
+  {
+    "name": "Chrome Urban Ex Pack 20 L",
+    "price": " $150.00",
+    "sku": "Item #232626"
+  },
+  {
+    "name": "Mountainsmith Zerk 25 Pack",
+    "price": " $199.95",
+    "sku": "Item #232486"
+  },
+  {
+    "name": "Gregory Jade 63 Pack - Women's Plus Sizes",
+    "price": " $269.95",
+    "sku": "Item #231826"
+  },
+  {
+    "name": "Gregory Amber 68 Plus Pack - Women's",
+    "price": " $239.95",
+    "sku": "Item #231825"
+  },
+  {
+    "name": "Gregory Amber 68 Pack - Women's",
+    "price": " $239.95",
+    "sku": "Item #231824"
+  },
+  {
+    "name": "Gregory Amber 44 Plus Pack - Women's",
+    "price": " $199.95",
+    "sku": "Item #231823"
+  },
+  {
+    "name": "Gregory Zulu 65 Pack - Men's Plus Sizes",
+    "price": " $269.95",
+    "sku": "Item #231821"
+  },
+  {
+    "name": "MYSTERY RANCH Scree 33 Pack - Women's",
+    "price": " $275.00",
+    "sku": "Item #231621"
+  },
+  {
+    "name": "Gregory Stout 70 Plus Pack - Men's",
+    "price": " $239.95",
+    "sku": "Item #231490"
+  },
+  {
+    "name": "Gregory Stout 45 Plus Pack - Men's",
+    "price": " $199.95",
+    "sku": "Item #231488"
+  },
+  {
+    "name": "Gregory Stout 45 Pack - Men's",
+    "price": " $199.95",
+    "sku": "Item #231487"
+  },
+  {
+    "name": "Cotopaxi Luzon 24 L Del Dia Pack",
+    "price": " $80.00",
+    "sku": "Item #231376"
+  },
+  {
+    "name": "DAKINE Lumbar Reservoir 2.0 - 3 Liters",
+    "price": " $65.00",
+    "sku": "Item #231269"
+  },
+  {
+    "name": "Exped Torrent 30 Pack",
+    "price": " $199.95",
+    "sku": "Item #231108"
+  },
+  {
+    "name": "Exped Summit Hike 25 Pack",
+    "price": " $99.95",
+    "sku": "Item #231106"
+  },
+  {
+    "name": "Exped Summit Hike 15 Pack",
+    "price": " $89.95",
+    "sku": "Item #231104"
+  },
+  {
+    "name": "Exped Lightning 45 Pack - Men's",
+    "price": " $209.95",
+    "sku": "Item #231090"
+  },
+  {
+    "name": "Osprey Arcane Large Day Anniversary Pack",
+    "price": " $110.00",
+    "sku": "Item #230185"
+  },
+  {
+    "name": "Osprey Escapist 30 Pack",
+    "price": " $180.00",
+    "sku": "Item #229771"
+  },
+  {
+    "name": "Osprey Escapist 20 Pack",
+    "price": " $140.00",
+    "sku": "Item #229720"
+  },
+  {
+    "name": "Noso Lumberjack Patch",
+    "price": " $9.95",
+    "sku": "Item #228984"
+  },
+  {
+    "name": "Noso Avocado Patch",
+    "price": " $11.95",
+    "sku": "Item #228983"
+  },
+  {
+    "name": "REI Co-op Flash 18 Pride Edition Pack",
+    "price": " $49.95",
+    "sku": "Item #227951"
+  },
+  {
     "name": "Fjallraven S/F Cave Pack",
     "price": " $130.00",
     "sku": "Item #225669"
+  },
+  {
+    "name": "Osprey Sopris 30 Pack - Women's",
+    "price": " $180.00",
+    "sku": "Item #223788"
+  },
+  {
+    "name": "Osprey Sopris 20 Pack - Women's",
+    "price": " $160.00",
+    "sku": "Item #223787"
+  },
+  {
+    "name": "Osprey Soelden 22 Snow Pack",
+    "price": " $160.00",
+    "sku": "Item #223784"
+  },
+  {
+    "name": "MYSTERY RANCH Catalyst 26 Pack",
+    "price": " $179.00",
+    "sku": "Item #223600"
+  },
+  {
+    "name": "MYSTERY RANCH Catalyst 22 Pack",
+    "price": " $149.00",
+    "sku": "Item #223599"
+  },
+  {
+    "name": "MYSTERY RANCH Catalyst 18 Pack",
+    "price": " $139.00",
+    "sku": "Item #223598"
+  },
+  {
+    "name": "Herschel Supply Co. Little America Pack",
+    "price": " $130.00",
+    "sku": "Item #221461"
+  },
+  {
+    "name": "Deuter Trail 16 SL Pack - Women's",
+    "price": " $120.00",
+    "sku": "Item #218759"
+  },
+  {
+    "name": "Deuter Trail 18 Pack - Men's",
+    "price": " $120.00",
+    "sku": "Item #218757"
+  },
+  {
+    "name": "Osprey UltraLight Raincover - Extra Large",
+    "price": " $50.00",
+    "sku": "Item #218573"
+  },
+  {
+    "name": "HydraPak Camp Tap",
+    "price": " $10.00",
+    "sku": "Item #218518"
+  },
+  {
+    "name": "Osprey Kitsuma 3 Hydration Pack - Women's",
+    "price": " $80.00",
+    "sku": "Item #218261"
+  },
+  {
+    "name": "Osprey Kitsuma 1.5 Hydration Pack - Women's",
+    "price": " $70.00",
+    "sku": "Item #218260"
+  },
+  {
+    "name": "Osprey Katari 1.5 Hydration Pack - Men's",
+    "price": " $70.00",
+    "sku": "Item #218253"
+  },
+  {
+    "name": "Osprey Siskin 8 Hydration Pack - Men's",
+    "price": " $130.00",
+    "sku": "Item #218246"
+  },
+  {
+    "name": "Gregory Miko 20 Pack - Men's Plus Size",
+    "price": " $129.95",
+    "sku": "Item #218013"
+  },
+  {
+    "name": "Gregory Jade 63 Pack - Women's",
+    "price": " $269.95",
+    "sku": "Item #218007"
+  },
+  {
+    "name": "Fjallraven Kanken Travel Daypack",
+    "price": " $90.00",
+    "sku": "Item #216843"
+  },
+  {
+    "name": "Fjallraven Kanken 17\" Laptop Pack",
+    "price": " $125.00",
+    "sku": "Item #210014"
+  },
+  {
+    "name": "EVOC Trail Pro 16 Pack",
+    "price": " $260.00",
+    "sku": "Item #208046"
+  },
+  {
+    "name": "EVOC Trail Pro 10 Pack",
+    "price": " $240.00",
+    "sku": "Item #208045"
+  },
+  {
+    "name": "Thule Nanum 25 L Pack",
+    "price": " $119.95",
+    "sku": "Item #205525"
+  },
+  {
+    "name": "Thule Nanum 18 L Pack",
+    "price": " $99.95",
+    "sku": "Item #205524"
+  },
+  {
+    "name": "EVOC Stage 18 Pack",
+    "price": " $170.00",
+    "sku": "Item #203714"
+  },
+  {
+    "name": "Gregory Inertia 18 H2O Hydration Pack - Men's",
+    "price": " $109.95",
+    "sku": "Item #203244"
+  },
+  {
+    "name": "Gregory Facet 45 Pack - Women's",
+    "price": " $229.95",
+    "sku": "Item #203239"
+  },
+  {
+    "name": "Gregory Focal 48 Pack - Men's",
+    "price": " $229.95",
+    "sku": "Item #203233"
+  },
+  {
+    "name": "Arc'teryx Bora 70 Pack - Women's",
+    "price": " $360.00",
+    "sku": "Item #203223"
+  },
+  {
+    "name": "Arc'teryx Bora 60 Pack - Women's",
+    "price": " $320.00",
+    "sku": "Item #203222"
   },
   {
     "name": "Arc'teryx Bora 75 Pack - Men's",
@@ -65,9 +1805,299 @@
     "sku": "Item #203221"
   },
   {
+    "name": "Osprey Raptor Pro 18 Pack - Men's",
+    "price": " $280.00",
+    "sku": "Item #201890"
+  },
+  {
+    "name": "CamelBak M.U.L.E. Commute 22 Hydration Pack - Men's",
+    "price": " $140.00",
+    "sku": "Item #201323"
+  },
+  {
+    "name": "Black Diamond Blitz 20 Pack",
+    "price": " $89.95",
+    "sku": "Item #200994"
+  },
+  {
+    "name": "EVOC Hydro Pro 1.5 Hydration Pack",
+    "price": " $130.00",
+    "sku": "Item #200664"
+  },
+  {
+    "name": "EVOC Hydro Pro 3 Hydration Pack",
+    "price": " $140.00",
+    "sku": "Item #200663"
+  },
+  {
+    "name": "EVOC Stage 6 Hydration Pack",
+    "price": " $160.00",
+    "sku": "Item #200650"
+  },
+  {
+    "name": "Gregory Citro 30 H2O Hydration Pack - Men's Plus Sizes",
+    "price": " $179.95",
+    "sku": "Item #193833"
+  },
+  {
+    "name": "Osprey Kresta 30 Snow Pack - Women's",
+    "price": " $210.00",
+    "sku": "Item #193749"
+  },
+  {
+    "name": "Gregory Katmai 65 Pack - Men's",
+    "price": " $309.95",
+    "sku": "Item #186660"
+  },
+  {
+    "name": "CamelBak Rogue Light 7 L Hydration Pack - Women's",
+    "price": " $85.00",
+    "sku": "Item #185765"
+  },
+  {
+    "name": "CamelBak Rogue Light 7 L Hydration Pack - Men's",
+    "price": " $85.00",
+    "sku": "Item #185763"
+  },
+  {
+    "name": "SealLine Pro Zip Duffel - 40L",
+    "price": " $259.95",
+    "sku": "Item #171489"
+  },
+  {
+    "name": "Gregory Insulated Quick Disconnect Kit",
+    "price": " $19.95",
+    "sku": "Item #171239"
+  },
+  {
+    "name": "DAKINE Seeker 10L Hydration Pack",
+    "price": " $200.00",
+    "sku": "Item #170146"
+  },
+  {
+    "name": "DAKINE Seeker 18L Hydration Pack",
+    "price": " $215.00",
+    "sku": "Item #170145"
+  },
+  {
+    "name": "Cotopaxi Tarak 20L Del Dia Pack",
+    "price": " $105.00",
+    "sku": "Item #168000"
+  },
+  {
+    "name": "Mountain Hardwear AMG 55 Pack",
+    "price": " $289.93",
+    "sku": "Item #166788"
+  },
+  {
+    "name": "Black Diamond JetForce UL 26 Avalanche Airbag Pack",
+    "price": " $629.93",
+    "sku": "Item #157444"
+  },
+  {
+    "name": "Black Diamond JetForce Pro Split 25L Avalanche Airbag Pack",
+    "price": " $1,499.95",
+    "sku": "Item #157443"
+  },
+  {
+    "name": "SealLine Pro Dry Pack - 120 Liters",
+    "price": " $339.95",
+    "sku": "Item #150163"
+  },
+  {
+    "name": "Platypus Big Zip EVO Filter Connect Kit",
+    "price": " $10.93",
+    "sku": "Item #147784"
+  },
+  {
+    "name": "Backcountry Access Float 32 Avalanche Airbag Pack",
+    "price": " $419.83",
+    "sku": "Item #138369"
+  },
+  {
+    "name": "Backcountry Access Float 12 Avalanche Airbag 2.0 Pack",
+    "price": " $349.93",
+    "sku": "Item #138367"
+  },
+  {
+    "name": "Backcountry Access Float 2.0 Airbag Cylinder",
+    "price": " $199.95",
+    "sku": "Item #122001"
+  },
+  {
+    "name": "CamelBak Crux Reservoir On/Off Valve",
+    "price": " $12.00",
+    "sku": "Item #108375"
+  },
+  {
+    "name": "The North Face Jester Daypack - Women's",
+    "price": " $75.00",
+    "sku": "Item #166872"
+  },
+  {
+    "name": "Rapha Rainproof Essentials Case - Large",
+    "price": " $39.00",
+    "sku": "Item #189601"
+  },
+  {
+    "name": "Black Diamond JetForce Booster Avalanche Airbag Pack Accessory",
+    "price": " $69.95",
+    "sku": "Item #157442"
+  },
+  {
+    "name": "Gregory Maven 55 Pack - Women's",
+    "price": " $259.95",
+    "sku": "Item #159409"
+  },
+  {
     "name": "Gregory Juno 30 H2O Hydration Pack - Women's",
     "price": " $119.73",
     "sku": "Item #220919"
+  },
+  {
+    "name": "Osprey Fairview 65 Wheeled Travel Pack - Women's",
+    "price": " $320.00",
+    "sku": "Item #207740"
+  },
+  {
+    "name": "CamelBak Mini M.U.L.E. Hydration Pack - Kids'",
+    "price": " $60.00",
+    "sku": "Item #237674"
+  },
+  {
+    "name": "CamelBak Arete 14 Hydration Pack",
+    "price": " $65.00",
+    "sku": "Item #238113"
+  },
+  {
+    "name": "MYSTERY RANCH Gallagator 20 Pack",
+    "price": " $109.00",
+    "sku": "Item #231618"
+  },
+  {
+    "name": "Gregory Baltoro 65 Pack - Men's",
+    "price": " $329.95",
+    "sku": "Item #203235"
+  },
+  {
+    "name": "Gregory Maya 20 Pack - Women's",
+    "price": " $129.95",
+    "sku": "Item #218017"
+  },
+  {
+    "name": "Gregory Jade 28 Pack - Women's",
+    "price": " $169.95",
+    "sku": "Item #218016"
+  },
+  {
+    "name": "MYSTERY RANCH Coulee 30 Pack - Women's",
+    "price": " $189.00",
+    "sku": "Item #218237"
+  },
+  {
+    "name": "Osprey Mira 32 Hydration Pack - Women's",
+    "price": " $220.00",
+    "sku": "Item #218569"
+  },
+  {
+    "name": "Gregory Zulu 30 Pack - Men's",
+    "price": " $169.95",
+    "sku": "Item #218015"
+  },
+  {
+    "name": "Osprey Farpoint 70 Travel Pack - Men's",
+    "price": " $230.00",
+    "sku": "Item #207733"
+  },
+  {
+    "name": "Gregory Zulu 65 Pack - Men's",
+    "price": " $186.73",
+    "sku": "Item #227817"
+  },
+  {
+    "name": "Gregory Zulu 45 Pack - Men's",
+    "price": " $199.95",
+    "sku": "Item #218004"
+  },
+  {
+    "name": "Deuter Speed Lite 21 Pack",
+    "price": " $80.00",
+    "sku": "Item #205764"
+  },
+  {
+    "name": "CamelBak Lobo Hydration Pack - Men's",
+    "price": " $100.00",
+    "sku": "Item #201139"
+  },
+  {
+    "name": "Gregory Deva 60 Pack - Women's",
+    "price": " $199.73",
+    "sku": "Item #215733"
+  },
+  {
+    "name": "Gregory Maya 25 Pack - Women's",
+    "price": " $139.95",
+    "sku": "Item #218019"
+  },
+  {
+    "name": "Black Diamond Distance 15 Pack - Women's",
+    "price": " $179.95",
+    "sku": "Item #216635"
+  },
+  {
+    "name": "Gregory Katmai 55 Pack - Men's",
+    "price": " $289.95",
+    "sku": "Item #186661"
+  },
+  {
+    "name": "Arc'teryx Aerios 35 Pack",
+    "price": " $250.00",
+    "sku": "Item #228110"
+  },
+  {
+    "name": "Gregory Baltoro 85 Pro Pack - Men's",
+    "price": " $399.95",
+    "sku": "Item #203238"
+  },
+  {
+    "name": "Gregory Zulu 30 Pack - Men's",
+    "price": " $119.73",
+    "sku": "Item #222458"
+  },
+  {
+    "name": "Sea to Summit Ultra-Sil Dry Sack - Set of 3",
+    "price": " $41.73",
+    "sku": "Item #230606"
+  },
+  {
+    "name": "Patagonia Fieldsmith Roll-Top Pack",
+    "price": " $69.73",
+    "sku": "Item #231477"
+  },
+  {
+    "name": "MYSTERY RANCH Gallagator 15 Pack",
+    "price": " $99.00",
+    "sku": "Item #231617"
+  },
+  {
+    "name": "Gregory Citro 30 H2O Hydration Pack - Men's",
+    "price": " $119.73",
+    "sku": "Item #227891"
+  },
+  {
+    "name": "Gregory Nano 18 Daypack",
+    "price": " $64.95",
+    "sku": "Item #218008"
+  },
+  {
+    "name": "Osprey Skimmer 28 Hydration Pack - Women's",
+    "price": " $150.00",
+    "sku": "Item #218567"
+  },
+  {
+    "name": "Black Diamond Distance 8 Hydration Pack - Women's",
+    "price": " $159.95",
+    "sku": "Item #217716"
   },
   {
     "name": "CamelBak Rim Runner X20 Hydration Pack - Women's",
@@ -75,9 +2105,299 @@
     "sku": "Item #240987"
   },
   {
+    "name": "Osprey Hydraulics LT Reservoir - 2.5 Liters",
+    "price": " $24.73",
+    "sku": "Item #233343"
+  },
+  {
+    "name": "Gregory Rhune 20 Pack",
+    "price": " $119.95",
+    "sku": "Item #210505"
+  },
+  {
+    "name": "Osprey Skimmer 20 Hydration Pack - Women's",
+    "price": " $130.00",
+    "sku": "Item #218566"
+  },
+  {
+    "name": "MYSTERY RANCH Radix 57 Pack - Men's",
+    "price": " $299.00",
+    "sku": "Item #231615"
+  },
+  {
+    "name": "CamelBak Fourteener 26 Hydration Pack - Men's",
+    "price": " $140.00",
+    "sku": "Item #217286"
+  },
+  {
+    "name": "Granite Gear Perimeter 50 Pack - Women's",
+    "price": " $148.73",
+    "sku": "Item #234177"
+  },
+  {
+    "name": "The North Face Trail Lite 65 Pack - Women's",
+    "price": " $179.73",
+    "sku": "Item #237305"
+  },
+  {
+    "name": "Gregory Targhee FastTrack 24 Snow Pack",
+    "price": " $199.95",
+    "sku": "Item #224460"
+  },
+  {
+    "name": "Osprey Talon Velocity 30 Pack - Men's",
+    "price": " $200.00",
+    "sku": "Item #231471"
+  },
+  {
+    "name": "CamelBak Hydrobak Light Hydration Pack - Men's",
+    "price": " $65.00",
+    "sku": "Item #185766"
+  },
+  {
+    "name": "Osprey Skimmer 28 Hydration Pack - Women's",
+    "price": " $111.73",
+    "sku": "Item #229034"
+  },
+  {
+    "name": "Gregory Baltoro 65 Pack - Men's",
+    "price": " $224.73",
+    "sku": "Item #222440"
+  },
+  {
+    "name": "YETI Panga Pack 28",
+    "price": " $300.00",
+    "sku": "Item #145115"
+  },
+  {
+    "name": "Arc'teryx Aerios 45 Pack - Women's",
+    "price": " $186.93",
+    "sku": "Item #216644"
+  },
+  {
+    "name": "Mountain Hardwear PCT 50 L Pack - Women's",
+    "price": " $209.93",
+    "sku": "Item #184904"
+  },
+  {
+    "name": "Patagonia Terravia Pack - 22 L",
+    "price": " $129.00",
+    "sku": "Item #192227"
+  },
+  {
+    "name": "Osprey UNLTD AntiGravity 64 Pack - Women's",
+    "price": " $524.93",
+    "sku": "Item #206781"
+  },
+  {
+    "name": "MYSTERY RANCH Glacier Pack - Women's",
+    "price": " $279.93",
+    "sku": "Item #144966"
+  },
+  {
+    "name": "Fjallraven Abisko Hike 35 Travel Pack",
+    "price": " $200.00",
+    "sku": "Item #216379"
+  },
+  {
+    "name": "Thule Aion Travel Pack - 28 L",
+    "price": " $189.95",
+    "sku": "Item #207406"
+  },
+  {
+    "name": "Mountain Hardwear AMG 75 Pack",
+    "price": " $440.00",
+    "sku": "Item #166789"
+  },
+  {
+    "name": "Gregory Kalmia 60 Pack - Women's Plus Sizes",
+    "price": " $229.93",
+    "sku": "Item #187527"
+  },
+  {
+    "name": "Gregory Katmai 65 Pack - Men's Plus Sizes",
+    "price": " $229.93",
+    "sku": "Item #187526"
+  },
+  {
+    "name": "Gregory Juno 24 H2O Hydration Pack - Women's",
+    "price": " $112.73",
+    "sku": "Item #234466"
+  },
+  {
+    "name": "Black Diamond Speed 40 Pack",
+    "price": " $204.95",
+    "sku": "Item #202393"
+  },
+  {
+    "name": "Osprey Skimmer 16 Hydration Pack - Women's",
+    "price": " $81.73",
+    "sku": "Item #229039"
+  },
+  {
+    "name": "Osprey Talon 33 Pack - Men's",
+    "price": " $141.73",
+    "sku": "Item #193524"
+  },
+  {
+    "name": "CamelBak Cloud Walker 18 Hydration Pack",
+    "price": " $90.00",
+    "sku": "Item #238115"
+  },
+  {
+    "name": "Big Agnes Ditch Rider 32 L Pack",
+    "price": " $119.73",
+    "sku": "Item #239235"
+  },
+  {
     "name": "Osprey UNLTD AirScape 68 Pack - Women's",
     "price": " $524.93",
     "sku": "Item #206700"
+  },
+  {
+    "name": "MYSTERY RANCH Terraframe 65 Pack - Men's",
+    "price": " $449.00",
+    "sku": "Item #164599"
+  },
+  {
+    "name": "CamelBak Rim Runner X22 Hydration Pack",
+    "price": " $69.73",
+    "sku": "Item #240983"
+  },
+  {
+    "name": "CamelBak Arete 18 Hydration Pack",
+    "price": " $51.73",
+    "sku": "Item #240974"
+  },
+  {
+    "name": "The North Face Trail Lite 50 Pack - Women's",
+    "price": " $164.73",
+    "sku": "Item #237304"
+  },
+  {
+    "name": "Gregory Wander 70 Pack - Kids'",
+    "price": " $163.73",
+    "sku": "Item #241165"
+  },
+  {
+    "name": "CamelBak M.U.L.E. Hydration Pack - Women's",
+    "price": " $130.00",
+    "sku": "Item #201322"
+  },
+  {
+    "name": "CamelBak Lobo Hydration Pack - Women's",
+    "price": " $100.00",
+    "sku": "Item #201321"
+  },
+  {
+    "name": "Mammut Ducan Spine 55 Pack - Women's",
+    "price": " $152.73",
+    "sku": "Item #235338"
+  },
+  {
+    "name": "Gregory Baltoro 75 Pack - Men's",
+    "price": " $247.73",
+    "sku": "Item #222451"
+  },
+  {
+    "name": "Big Agnes Parkview 63 L Pack - Men's",
+    "price": " $209.73",
+    "sku": "Item #239233"
+  },
+  {
+    "name": "Patagonia Black Hole Mini MLC Pack",
+    "price": " $199.00",
+    "sku": "Item #208440"
+  },
+  {
+    "name": "Gregory Rhune 22 Pack",
+    "price": " $139.95",
+    "sku": "Item #210506"
+  },
+  {
+    "name": "Mountain Hardwear Scrambler 25 Pack",
+    "price": " $175.00",
+    "sku": "Item #218096"
+  },
+  {
+    "name": "CamelBak Rim Runner X20 Hydration Pack - Women's",
+    "price": " $105.00",
+    "sku": "Item #238117"
+  },
+  {
+    "name": "Gregory Zulu 35 Pack",
+    "price": " $119.73",
+    "sku": "Item #220918"
+  },
+  {
+    "name": "Sherpani Mia Pack - Women's",
+    "price": " $110.00",
+    "sku": "Item #230776"
+  },
+  {
+    "name": "Outdoor Research PackOut Compression Stuff Sack",
+    "price": " $16.73",
+    "sku": "Item #239654"
+  },
+  {
+    "name": "Osprey Soelden 32 Snow Pack - Men's",
+    "price": " $129.73",
+    "sku": "Item #233351"
+  },
+  {
+    "name": "Gregory Citro 24 H2O Hydration Pack - Men's",
+    "price": " $112.73",
+    "sku": "Item #227820"
+  },
+  {
+    "name": "ALPS Mountaineering Hydro Trail 17 Pack",
+    "price": " $81.73",
+    "sku": "Item #142389"
+  },
+  {
+    "name": "Osprey Hydraulics LT Reservoir - 1.5 Liters",
+    "price": " $21.73",
+    "sku": "Item #233342"
+  },
+  {
+    "name": "Gregory Rhune 25 Pack",
+    "price": " $129.95",
+    "sku": "Item #210507"
+  },
+  {
+    "name": "Osprey Hydrajet 12 Hydration Pack - Kids'",
+    "price": " $47.73",
+    "sku": "Item #229041"
+  },
+  {
+    "name": "Osprey Arcane Roll Top Pack",
+    "price": " $70.73",
+    "sku": "Item #233322"
+  },
+  {
+    "name": "Patagonia Terravia Pack - 14 L",
+    "price": " $109.00",
+    "sku": "Item #192226"
+  },
+  {
+    "name": "Gregory 3D Hydro Reservoir - 3 Liters",
+    "price": " $31.73",
+    "sku": "Item #227819"
+  },
+  {
+    "name": "Deuter Aircontact Core 65 + 10 Pack - Men's",
+    "price": " $250.00",
+    "sku": "Item #205557"
+  },
+  {
+    "name": "Outdoor Research CarryOut Dry Bag",
+    "price": " $21.73",
+    "sku": "Item #239651"
+  },
+  {
+    "name": "EVOC FR Trail Blackline 20 Pack",
+    "price": " $250.00",
+    "sku": "Item #208044"
   },
   {
     "name": "EVOC FR Enduro Blackline 16 Pack",
@@ -85,9 +2405,299 @@
     "sku": "Item #208043"
   },
   {
+    "name": "Granite Gear Perimeter 50 Pack",
+    "price": " $174.73",
+    "sku": "Item #234175"
+  },
+  {
+    "name": "MYSTERY RANCH Gallagator 25 Pack",
+    "price": " $129.00",
+    "sku": "Item #231619"
+  },
+  {
+    "name": "Patagonia Stealth Pack 30 L",
+    "price": " $134.73",
+    "sku": "Item #240212"
+  },
+  {
+    "name": "Osprey Heritage Scarab 30 Pack",
+    "price": " $91.73",
+    "sku": "Item #233346"
+  },
+  {
+    "name": "MYSTERY RANCH Radix 57 Pack - Women's",
+    "price": " $299.00",
+    "sku": "Item #231616"
+  },
+  {
+    "name": "Outdoor Research Field Explorer Pack - 20 L",
+    "price": " $58.73",
+    "sku": "Item #228998"
+  },
+  {
+    "name": "Gregory Zulu 55 Pack - Men's",
+    "price": " $164.73",
+    "sku": "Item #227816"
+  },
+  {
+    "name": "Outdoor Research Dirty/Clean Bag",
+    "price": " $26.73",
+    "sku": "Item #239653"
+  },
+  {
+    "name": "Gregory Targhee 32 Snow Pack",
+    "price": " $139.73",
+    "sku": "Item #239749"
+  },
+  {
+    "name": "Mountain Hardwear Snoskiwoski 40 Snow Pack",
+    "price": " $164.73",
+    "sku": "Item #233723"
+  },
+  {
+    "name": "Gregory Swift 22 H2O Hydration Pack - Women's",
+    "price": " $96.73",
+    "sku": "Item #241198"
+  },
+  {
+    "name": "Osprey Arcane XL Daypack",
+    "price": " $96.73",
+    "sku": "Item #240607"
+  },
+  {
+    "name": "Osprey Skimmer 20 Hydration Pack - Women's",
+    "price": " $96.73",
+    "sku": "Item #229035"
+  },
+  {
+    "name": "Black Diamond JetForce Pro 10 L Avalanche Airbag Pack",
+    "price": " $1,499.95",
+    "sku": "Item #224613"
+  },
+  {
+    "name": "CamelBak M.U.L.E. 12 Hydration Pack",
+    "price": " $90.73",
+    "sku": "Item #240980"
+  },
+  {
+    "name": "Sea to Summit Mesh Stuff Sack - Set of 3",
+    "price": " $20.73",
+    "sku": "Item #240794"
+  },
+  {
+    "name": "Osprey Arcane Flap Pack",
+    "price": " $74.73",
+    "sku": "Item #240604"
+  },
+  {
+    "name": "Gregory Jade 63 Pack - Women's",
+    "price": " $186.73",
+    "sku": "Item #227815"
+  },
+  {
+    "name": "CamelBak M.U.L.E. Pro 14 Hydration Pack - Women's",
+    "price": " $109.73",
+    "sku": "Item #240986"
+  },
+  {
+    "name": "Sea to Summit View Dry Sack",
+    "price": " $17.73",
+    "sku": "Item #240798"
+  },
+  {
+    "name": "CamelBak Rogue Light Hydration Pack",
+    "price": " $58.73",
+    "sku": "Item #240984"
+  },
+  {
+    "name": "Granite Gear Perimeter 35 Pack",
+    "price": " $135.73",
+    "sku": "Item #234174"
+  },
+  {
+    "name": "CamelBak Hydrobak Light Hydration Pack",
+    "price": " $44.73",
+    "sku": "Item #240979"
+  },
+  {
+    "name": "Gregory Inertia 24 H2O Hydration Pack - Men's",
+    "price": " $96.73",
+    "sku": "Item #241171"
+  },
+  {
+    "name": "Mountain Hardwear Gnarwhal 25 Snow Pack",
+    "price": " $127.73",
+    "sku": "Item #233722"
+  },
+  {
+    "name": "Osprey Heritage Aether 30 Pack",
+    "price": " $97.73",
+    "sku": "Item #233345"
+  },
+  {
+    "name": "Mammut Ducan Spine 55 Pack",
+    "price": " $179.73",
+    "sku": "Item #235336"
+  },
+  {
+    "name": "Gregory Rhune 20 Pack",
+    "price": " $89.73",
+    "sku": "Item #234461"
+  },
+  {
+    "name": "Gregory Stout 70 Pack - Men's Plus Size",
+    "price": " $178.73",
+    "sku": "Item #241178"
+  },
+  {
     "name": "Gregory Miwok 18 Pack - Men's",
     "price": " $82.73",
     "sku": "Item #190080"
+  },
+  {
+    "name": "Outdoor Research PackOut Ultralight Stuff Sack",
+    "price": " $13.73",
+    "sku": "Item #239655"
+  },
+  {
+    "name": "DAKINE Team Poacher 32 L Snow Pack - Men's",
+    "price": " $151.73",
+    "sku": "Item #233994"
+  },
+  {
+    "name": "Gregory Amber 44 Pack - Women's Plus Size",
+    "price": " $148.73",
+    "sku": "Item #241185"
+  },
+  {
+    "name": "Mazama Designs INTAKE LT Reservoir - 2 Liters",
+    "price": " $12.73",
+    "sku": "Item #228463"
+  },
+  {
+    "name": "Gregory Amasa 10 H2O Hydration Pack - Women's",
+    "price": " $96.73",
+    "sku": "Item #241166"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Dry Bag - 15 L",
+    "price": " $20.73",
+    "sku": "Item #224529"
+  },
+  {
+    "name": "Granite Gear Perimeter 35 Pack - Women's",
+    "price": " $135.73",
+    "sku": "Item #234176"
+  },
+  {
+    "name": "Nathan Crossover 15 Liter Hydration Pack",
+    "price": " $89.73",
+    "sku": "Item #239907"
+  },
+  {
+    "name": "Gregory Resin 25 Pack",
+    "price": " $89.73",
+    "sku": "Item #237918"
+  },
+  {
+    "name": "Osprey Sopris 30 Snow Pack - Women's",
+    "price": " $129.73",
+    "sku": "Item #233353"
+  },
+  {
+    "name": "Nathan Crossover 5 Liter Hydration Pack",
+    "price": " $64.73",
+    "sku": "Item #239905"
+  },
+  {
+    "name": "Gregory Jade 53 Pack - Women's",
+    "price": " $164.73",
+    "sku": "Item #227814"
+  },
+  {
+    "name": "Sea to Summit Mesh Stuff Sack - Set of 3",
+    "price": " $27.73",
+    "sku": "Item #230602"
+  },
+  {
+    "name": "Osprey Arcane Large Day Pack",
+    "price": " $81.73",
+    "sku": "Item #215499"
+  },
+  {
+    "name": "Gregory Katmai 65 Pack - Men's",
+    "price": " $231.73",
+    "sku": "Item #241173"
+  },
+  {
+    "name": "Osprey Talon Jr. Pack - Kids'",
+    "price": " $74.73",
+    "sku": "Item #240611"
+  },
+  {
+    "name": "Gregory Maya 30 Pack - Women's",
+    "price": " $111.73",
+    "sku": "Item #241197"
+  },
+  {
+    "name": "Gregory Miko 30 Pack - Men's",
+    "price": " $111.73",
+    "sku": "Item #241174"
+  },
+  {
+    "name": "Osprey Heritage Simplex 20 Pack",
+    "price": " $109.73",
+    "sku": "Item #233347"
+  },
+  {
+    "name": "Black Diamond Shot 11 Pack",
+    "price": " $52.73",
+    "sku": "Item #231806"
+  },
+  {
+    "name": "Big Agnes Pack Raincover - Large / 55-75 L",
+    "price": " $29.73",
+    "sku": "Item #239237"
+  },
+  {
+    "name": "Gregory Jade 28 Pack - Women's",
+    "price": " $118.73",
+    "sku": "Item #222459"
+  },
+  {
+    "name": "Gregory Kalmia 50 Pack - Women's",
+    "price": " $194.73",
+    "sku": "Item #234467"
+  },
+  {
+    "name": "Gregory Drift 10 H2O Hydration Pack - Men's",
+    "price": " $96.73",
+    "sku": "Item #241191"
+  },
+  {
+    "name": "Gregory Resin Roll-Top Pack",
+    "price": " $89.73",
+    "sku": "Item #237919"
+  },
+  {
+    "name": "Gregory Amber 65 Pack - Women's Plus Size",
+    "price": " $178.73",
+    "sku": "Item #241188"
+  },
+  {
+    "name": "Big Agnes Pack Raincover - Medium / 35-55 L",
+    "price": " $24.73",
+    "sku": "Item #239238"
+  },
+  {
+    "name": "Gregory Amber 44 Pack - Women's",
+    "price": " $148.73",
+    "sku": "Item #241184"
+  },
+  {
+    "name": "Osprey Hydraulics Lumbar Reservoir - 1.5 Liters",
+    "price": " $21.73",
+    "sku": "Item #233344"
   },
   {
     "name": "CamelBak Hydrobak Light Hydration Pack",
@@ -95,13 +2705,308 @@
     "sku": "Item #237683"
   },
   {
+    "name": "Gregory 3D Hydro Reservoir - 2 Liters",
+    "price": " $29.73",
+    "sku": "Item #227818"
+  },
+  {
+    "name": "SealLine Pro Dry Pack - 70 Liters",
+    "price": " $314.95",
+    "sku": "Item #205726"
+  },
+  {
+    "name": "Mazama Designs INTAKE Insulated Reservoir - 2 Liters",
+    "price": " $27.73",
+    "sku": "Item #236944"
+  },
+  {
+    "name": "Osprey Sportlite 30 Pack",
+    "price": " $100.73",
+    "sku": "Item #240610"
+  },
+  {
+    "name": "Gregory 3D Hydro Trek Hydration Reservoir - 3 Liters",
+    "price": " $32.73",
+    "sku": "Item #227894"
+  },
+  {
+    "name": "Mazama Designs INTAKE Reservoir with Handle - 3 Liters",
+    "price": " $23.73",
+    "sku": "Item #236941"
+  },
+  {
+    "name": "Mazama Designs Trailflow Insulated Reservoir - 2 Liters",
+    "price": " $30.73",
+    "sku": "Item #236942"
+  },
+  {
+    "name": "Gregory Resin 25 Pack",
+    "price": " $89.73",
+    "sku": "Item #234459"
+  },
+  {
+    "name": "CamelBak Hydrobak Light Hydration Pack - Women's",
+    "price": " $44.73",
+    "sku": "Item #240985"
+  },
+  {
+    "name": "Gregory Resin 22 Pack",
+    "price": " $84.73",
+    "sku": "Item #237917"
+  },
+  {
+    "name": "Gregory Resin 22 Pack",
+    "price": " $82.73",
+    "sku": "Item #234458"
+  },
+  {
+    "name": "Outdoor Research Field Explorer Pack - 25 L",
+    "price": " $79.73",
+    "sku": "Item #228999"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Dry Bag - 10 L",
+    "price": " $19.73",
+    "sku": "Item #224528"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Stuff Sack - 35 L",
+    "price": " $17.73",
+    "sku": "Item #228992"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Dry Bag - 8 L",
+    "price": " $18.73",
+    "sku": "Item #224527"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Dry Bag - 5 L",
+    "price": " $16.73",
+    "sku": "Item #224526"
+  },
+  {
+    "name": "Black Diamond Trail Blitz 16 Pack",
+    "price": " $44.73",
+    "sku": "Item #241211"
+  },
+  {
+    "name": "Mazama Designs Trailflow Insulated Reservoir - 3 Liters",
+    "price": " $31.73",
+    "sku": "Item #236943"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Stuff Sack - 15 L",
+    "price": " $15.73",
+    "sku": "Item #224622"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Stuff Sack - 20 L",
+    "price": " $16.73",
+    "sku": "Item #224623"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Dry Bag - 3 L",
+    "price": " $15.73",
+    "sku": "Item #224525"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Stuff Sack - 10 L",
+    "price": " $13.73",
+    "sku": "Item #224621"
+  },
+  {
+    "name": "Gregory Drift 14 H2O Hydration Pack - Men's",
+    "price": " $103.73",
+    "sku": "Item #241192"
+  },
+  {
+    "name": "Gregory Stout 70 Pack - Men's",
+    "price": " $178.73",
+    "sku": "Item #241177"
+  },
+  {
+    "name": "Gregory Katmai 55 Pack - Men's",
+    "price": " $216.73",
+    "sku": "Item #241172"
+  },
+  {
+    "name": "Gregory Inertia 18 H2O Hydration Pack - Men's",
+    "price": " $81.73",
+    "sku": "Item #241170"
+  },
+  {
+    "name": "Gregory Amasa 14 H2O Hydration Pack - Women's",
+    "price": " $103.73",
+    "sku": "Item #241167"
+  },
+  {
+    "name": "Eagle Creek Tour Travel Pack 55 L",
+    "price": " $159.73",
+    "sku": "Item #240636"
+  },
+  {
+    "name": "Patagonia Terravia Pack 14 L",
+    "price": " $74.73",
+    "sku": "Item #240207"
+  },
+  {
     "name": "Patagonia Ascensionist Pack 55 L",
     "price": " $174.73",
     "sku": "Item #240201"
   },
   {
+    "name": "Nathan Crossover 10 Liter Hydration Pack",
+    "price": " $74.73",
+    "sku": "Item #239906"
+  },
+  {
+    "name": "Gregory Targhee 26 Snow Pack",
+    "price": " $124.73",
+    "sku": "Item #239748"
+  },
+  {
+    "name": "Big Agnes Garnet 60 L Pack - Women's",
+    "price": " $209.73",
+    "sku": "Item #239244"
+  },
+  {
+    "name": "Gregory Rhune 22 Pack",
+    "price": " $104.73",
+    "sku": "Item #234462"
+  },
+  {
+    "name": "DAKINE Heli Pro 24 L Snow Pack - Women's",
+    "price": " $64.73",
+    "sku": "Item #233995"
+  },
+  {
+    "name": "Osprey Transporter Roll Top Pack",
+    "price": " $119.73",
+    "sku": "Item #233355"
+  },
+  {
+    "name": "Osprey Transporter Panel Loader Pack",
+    "price": " $119.73",
+    "sku": "Item #233354"
+  },
+  {
+    "name": "Outdoor Research PackOut Graphic Stuff Sack - 35 L",
+    "price": " $22.73",
+    "sku": "Item #224624"
+  },
+  {
+    "name": "Osprey Duro 15 Hydration Pack - Men's - 2.5 Liters",
+    "price": " $130.73",
+    "sku": "Item #152961"
+  },
+  {
+    "name": "Arc'teryx Granville 25 Pack",
+    "price": " $220.00",
+    "sku": "Item #217701"
+  },
+  {
+    "name": "Patagonia Black Hole MLC Pack",
+    "price": " $239.00",
+    "sku": "Item #208438"
+  },
+  {
+    "name": "Mountain Hardwear Powabunga 32 Snow Pack",
+    "price": " $149.73",
+    "sku": "Item #233721"
+  },
+  {
+    "name": "MYSTERY RANCH Scree 33 Pack - Men's",
+    "price": " $275.00",
+    "sku": "Item #231620"
+  },
+  {
+    "name": "MYSTERY RANCH Glacier Pack - Men's",
+    "price": " $279.93",
+    "sku": "Item #144965"
+  },
+  {
+    "name": "Gregory Jade 33 Pack - Women's",
+    "price": " $119.73",
+    "sku": "Item #220917"
+  },
+  {
+    "name": "MYSTERY RANCH Coulee 30 Pack - Men's",
+    "price": " $189.00",
+    "sku": "Item #218234"
+  },
+  {
+    "name": "Osprey Exos Pro 55 Pack - Men's",
+    "price": " $290.00",
+    "sku": "Item #218552"
+  },
+  {
+    "name": "MYSTERY RANCH Terraframe 80 Pack - Men's",
+    "price": " $499.00",
+    "sku": "Item #164600"
+  },
+  {
+    "name": "Osprey Ariel Pro 65 Pack - Women's",
+    "price": " $299.93",
+    "sku": "Item #126715"
+  },
+  {
+    "name": "CamelBak Mini M.U.L.E. Hydration Pack - Kids'",
+    "price": " $60.00",
+    "sku": "Item #170535"
+  },
+  {
+    "name": "Gregory Raincover 30-50 L",
+    "price": " $34.95",
+    "sku": "Item #203249"
+  },
+  {
+    "name": "Chrome Bravo 4.0 Pack",
+    "price": " $180.00",
+    "sku": "Item #225745"
+  },
+  {
+    "name": "Osprey Aether Plus 70 Pack - Men's",
+    "price": " $410.00",
+    "sku": "Item #177495"
+  },
+  {
+    "name": "Osprey IsoForm5 Pack Harness Shoulder Straps - Women's",
+    "price": " $11.83",
+    "sku": "Item #111308"
+  },
+  {
+    "name": "Gregory Border 18 Pack",
+    "price": " $84.73",
+    "sku": "Item #237920"
+  },
+  {
+    "name": "DAKINE Heli 12 L Snow Pack",
+    "price": " $39.83",
+    "sku": "Item #234538"
+  },
+  {
+    "name": "Arc'teryx Mantis 26 L Pack",
+    "price": " $160.00",
+    "sku": "Item #228432"
+  },
+  {
+    "name": "Arc'teryx Mantis 16 Pack",
+    "price": " $120.00",
+    "sku": "Item #228431"
+  },
+  {
+    "name": "Backcountry Access Float E2-35 Avalanche Airbag Pack",
+    "price": " $909.83",
+    "sku": "Item #213142"
+  },
+  {
     "name": "Gregory Targhee 32 Snow Pack",
     "price": " $199.95",
     "sku": "Item #207277"
+  },
+  {
+    "name": "HydraPak HydraSleeve Reservoir - 3 Liters",
+    "price": " $65.00",
+    "sku": "Item #153083"
   }
 ]
