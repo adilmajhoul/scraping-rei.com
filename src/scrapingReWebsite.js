@@ -114,6 +114,7 @@ async function parseAllContentPages(links) {
  * @return {void}
  */
 async function paginationLoop(url) {
+  // wtf
   url = BASEURLPAGINATION + url;
   while (true) {
     const { html, nextPageUrl } = await getPage(url);
