@@ -92,6 +92,7 @@ async function parseContent(html, fields) {
  */
 
 async function paginationLoop(url) {
+  // wtf
   let baseUrl = 'https://www.rei.com/search';
 
   while (true) {
