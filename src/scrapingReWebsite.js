@@ -1,6 +1,9 @@
 import * as cheerio from 'cheerio';
 import { proxies } from './lib/config/proxies';
 
+const BASEURLPRODUCT = 'https://www.rei.com';
+const BASEURLPAGINATION = 'https://www.rei.com/search';
+
 // --- CLI ---
 // first page URL
 // Base URL
@@ -83,46 +86,50 @@ async function parseContent(html, fields) {
 }
 
 /**
- * Asynchronously loops through paginated URLs to fetch data.
+ * Parses all content pages for the given links.
  *
- * @param {string} url - The initial URL to start pagination from.
- * @return {void} This function does not return anything.
+ * @param {Array} links - An array of links to be parsed
+ * @return {Promise} A promise that resolves when all content pages are parsed
  */
-async function contentPageLoop(links) {
-  const baseUrl = 'https://www.rei.com/';
+async function parseAllContentPages(links) {
+  console.log('🚀 ~ contentPageLoop ~ links:', links);
 
-  for (const link in links) {
-    const { html } = await getPage(
-      'https://www.rei.com/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
-    );
+  for (const link of links) {
+    console.log(`🚀 ~ contentPageLoop ~ link: ${link}`);
+    const { html } = await getPage(BASEURLPRODUCT + link);
+
     const product = await parseContent(html, {
       name: 'h1#product-page-title',
       price: 'span#buy-box-product-price',
       sku: 'span#product-item-number',
     });
-    console.log(product);
+    console.log(`🚀 ~ contentPageLoop ~ product: ${JSON.stringify(product)}`);
   }
 }
-// async function paginationLoop(url) {
-//   // wtf
-//   let baseUrl = 'https://www.rei.com/search';
 
-//   while (true) {
-//     const { html } = await getPage(baseUrl + url);
+/**
+ * Asynchronously loops through pagination of a given URL, extracting product information.
+ *
+ * @param {string} url - The initial URL for pagination
+ * @return {void}
+ */
+async function paginationLoop(url) {
+  url = BASEURLPAGINATION + url;
+  while (true) {
+    const { html, nextPageUrl } = await getPage(url);
 
-//     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
-//     console.log('🚀 ~ paginationLoop ~ productLinks:', productLinks);
+    let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
 
-//     let { nextPageUrl } = await getPage(url);
+    const product = await parseAllContentPages(productLinks);
 
-//     if (!nextPageUrl) {
-//       break;
-//     } else {
-//       url = baseUrl + nextPageUrl;
-//       console.log(url);
-//     }
-//   }
-// }
+    if (!nextPageUrl) {
+      break;
+    } else {
+      url = BASEURLPAGINATION + nextPageUrl;
+      console.log(url);
+    }
+  }
+}
 
 // async function paginationLoop(url) {
 //   // wtf
@@ -164,7 +171,7 @@ async function contentPageLoop(links) {
   // const productLinks = await parseLinks(html, 'div#search-results > ul li > a');
   // console.log('🚀 ~ main ~ productLinks:', productLinks);
 
-  // paginationLoop('?q=Backpacks&page=6');
+  paginationLoop('?q=Backpacks&page=6');
 
   // const { html } = await getPage(
   //   'https://www.rei.com/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
@@ -178,10 +185,10 @@ async function contentPageLoop(links) {
 
   // console.log(product);
 
-  const links = [
-    '/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
-    '/product/118870/rei-co-op-pack-duffel-bag',
-  ];
+  // const links = [
+  //   '/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
+  //   '/product/118870/rei-co-op-pack-duffel-bag',
+  // ];
 
-  contentPageLoop(links);
+  // parseAllContentPages(links);
 })();
