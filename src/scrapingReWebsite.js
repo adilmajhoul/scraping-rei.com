@@ -90,6 +90,7 @@ async function parseContent(html, fields) {
  * @param {string} url - The initial URL to start pagination from.
  * @return {void} This function does not return anything.
  */
+
 async function paginationLoop(url) {
   // wtf
   let baseUrl = 'https://www.rei.com/search';
@@ -98,18 +99,7 @@ async function paginationLoop(url) {
     const { html } = await getPage(baseUrl + url);
 
     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
-
-    for (const link of productLinks) {
-      const { html } = await getPage(baseUrl + link);
-
-      const product = await parseContent(html, {
-        name: 'h1#product-page-title',
-        price: 'span#buy-box-product-price',
-        sku: 'span#product-item-number',
-      });
-
-      console.log(product);
-    }
+    console.log('🚀 ~ paginationLoop ~ productLinks:', productLinks);
 
     let { nextPageUrl } = await getPage(url);
 
@@ -121,6 +111,38 @@ async function paginationLoop(url) {
     }
   }
 }
+
+// async function paginationLoop(url) {
+//   // wtf
+//   let baseUrl = 'https://www.rei.com/search';
+
+//   while (true) {
+//     const { html } = await getPage(baseUrl + url);
+
+//     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
+
+//     for (const link of productLinks) {
+//       const { html } = await getPage(baseUrl + link);
+
+//       const product = await parseContent(html, {
+//         name: 'h1#product-page-title',
+//         price: 'span#buy-box-product-price',
+//         sku: 'span#product-item-number',
+//       });
+
+//       console.log(product);
+//     }
+
+//     let { nextPageUrl } = await getPage(url);
+
+//     if (!nextPageUrl) {
+//       break;
+//     } else {
+//       url = baseUrl + nextPageUrl;
+//       console.log(url);
+//     }
+//   }
+// }
 
 (async function main() {
   paginationLoop('https://www.rei.com/search?q=Backpacks&page=6');
