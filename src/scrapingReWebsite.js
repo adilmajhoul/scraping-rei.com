@@ -25,8 +25,6 @@ async function parseLinks(html, selector) {
   let links = $(selector).get();
   links = new Set(links.map((a) => $(a).attr('href')));
 
-  console.log('🚀 ~ parseLinks ~ links:', links);
-
   return links;
 }
 
@@ -90,27 +88,41 @@ async function parseContent(html, fields) {
  * @param {string} url - The initial URL to start pagination from.
  * @return {void} This function does not return anything.
  */
+async function contentPageLoop(links) {
+  const baseUrl = 'https://www.rei.com/';
 
-async function paginationLoop(url) {
-  // wtf
-  let baseUrl = 'https://www.rei.com/search';
-
-  while (true) {
-    const { html } = await getPage(baseUrl + url);
-
-    let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
-    console.log('🚀 ~ paginationLoop ~ productLinks:', productLinks);
-
-    let { nextPageUrl } = await getPage(url);
-
-    if (!nextPageUrl) {
-      break;
-    } else {
-      url = baseUrl + nextPageUrl;
-      console.log(url);
-    }
+  for (const link in links) {
+    const { html } = await getPage(
+      'https://www.rei.com/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
+    );
+    const product = await parseContent(html, {
+      name: 'h1#product-page-title',
+      price: 'span#buy-box-product-price',
+      sku: 'span#product-item-number',
+    });
+    console.log(product);
   }
 }
+// async function paginationLoop(url) {
+//   // wtf
+//   let baseUrl = 'https://www.rei.com/search';
+
+//   while (true) {
+//     const { html } = await getPage(baseUrl + url);
+
+//     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
+//     console.log('🚀 ~ paginationLoop ~ productLinks:', productLinks);
+
+//     let { nextPageUrl } = await getPage(url);
+
+//     if (!nextPageUrl) {
+//       break;
+//     } else {
+//       url = baseUrl + nextPageUrl;
+//       console.log(url);
+//     }
+//   }
+// }
 
 // async function paginationLoop(url) {
 //   // wtf
@@ -133,7 +145,7 @@ async function paginationLoop(url) {
 //       console.log(product);
 //     }
 
-//     let { nextPageUrl } = await getPage(url);
+//     let { nextPageUrl } = await getPage(baseUrl + url);
 
 //     if (!nextPageUrl) {
 //       break;
@@ -145,10 +157,17 @@ async function paginationLoop(url) {
 // }
 
 (async function main() {
-  paginationLoop('https://www.rei.com/search?q=Backpacks&page=6');
+  // const { html } = await getPage(
+  //   'https://www.rei.com/search?q=Backpacks&page=6',
+  // );
+
+  // const productLinks = await parseLinks(html, 'div#search-results > ul li > a');
+  // console.log('🚀 ~ main ~ productLinks:', productLinks);
+
+  // paginationLoop('?q=Backpacks&page=6');
 
   // const { html } = await getPage(
-  //   'https://www.rei.com/product/231468/osprey-talon-pro-20-pack-mens',
+  //   'https://www.rei.com/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
   // );
 
   // const product = await parseContent(html, {
@@ -158,4 +177,11 @@ async function paginationLoop(url) {
   // });
 
   // console.log(product);
+
+  const links = [
+    '/product/213141/backcountry-access-float-e2-25-avalanche-airbag-pack',
+    '/product/118870/rei-co-op-pack-duffel-bag',
+  ];
+
+  contentPageLoop(links);
 })();
