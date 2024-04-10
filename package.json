@@ -9,7 +9,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "bun --watch ./src/main.ts "
+    "dev": "bun --watch ./src/scrapingReWebsite.js "
   },
   "type": "module",
   "dependencies": {
