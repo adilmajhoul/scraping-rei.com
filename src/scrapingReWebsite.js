@@ -91,6 +91,7 @@ async function parseContent(html, fields) {
  * @return {void} This function does not return anything.
  */
 async function paginationLoop(url) {
+  // wtf
   let baseUrl = 'https://www.rei.com/search';
 
   while (true) {
