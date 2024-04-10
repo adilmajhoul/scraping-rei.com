@@ -1,5 +1,5 @@
-import * as cheerio from "cheerio";
-import { proxies } from "./lib/config/proxies";
+import * as cheerio from 'cheerio';
+import { proxies } from './lib/config/proxies';
 
 // --- CLI ---
 // first page URL
@@ -18,33 +18,16 @@ import { proxies } from "./lib/config/proxies";
  * @param {string} html - The HTML content to parse links from.
  * @return {Set} A Set containing unique links extracted from the HTML content.
  */
-async function parseLinks(html) {
+async function parseLinks(html, selector) {
+  // "div#search-results > ul li > a"
   const $ = cheerio.load(html);
 
-  let links = $("div#search-results > ul li > a").get();
-  links = new Set(links.map((a) => $(a).attr("href")));
+  let links = $(selector).get();
+  links = new Set(links.map((a) => $(a).attr('href')));
 
-  console.log("🚀 ~ parseLinks ~ links:", links);
+  console.log('🚀 ~ parseLinks ~ links:', links);
 
   return links;
-}
-
-/**
- * Asynchronously fetches and loads HTML content from a given URL, extracts the next page URL,
- * and returns the body HTML content along with the next page URL.
- *
- * @param {string} url - The URL to fetch the HTML content from.
- * @return {Object} An object containing the body HTML content and the next page URL.
- */
-async function paginationLoop(url) {
-  const bodyHtml = await fetch(url).then((res) => res.text());
-  const $ = cheerio.load(bodyHtml);
-
-  let nextPageUrl = $("a[data-id='pagination-test-link-next']").attr("href");
-
-  console.log("🚀 ~ paginationLoop ~ nextPageUrl:", nextPageUrl);
-
-  return { bodyHtml, nextPageUrl };
 }
 
 /**
@@ -70,26 +53,86 @@ export async function getText(html, selector, index) {
 
   const text = $(selector).eq(index).text();
 
-  return text || "";
+  return text || '';
 }
 
 /**
- * Asynchronous function that performs a pagination loop on a given URL, starting from a base URL and iterating through subsequent pages until there are no more pages left to fetch.
+ * Asynchronously fetches a webpage from the given URL, extracts HTML content using Cheerio, and
+ * retrieves the URL for the next page.
  *
- * @return {Promise<void>} This function does not return any value explicitly.
+ * @param {string} url - The URL of the webpage to fetch
+ * @return {Object} An object containing the fetched HTML, the URL of the next page, and the Cheerio object
  */
-(async function main() {
-  let baseUrl = "https://www.rei.com/search";
-  let url = "https://www.rei.com/search?q=Backpacks&page=6";
+async function getPage(url) {
+  const html = await fetch(url).then((res) => res.text());
+  const $ = cheerio.load(html);
+
+  const nextPageUrl = $("a[data-id='pagination-test-link-next']").attr('href');
+
+  return { html, nextPageUrl, $ };
+}
+
+async function parseContent(html, fields) {
+  const $ = cheerio.load(html);
+
+  const content = {};
+
+  for (const key in fields) {
+    content[key] = await getText(html, fields[key], 0);
+  }
+
+  return content;
+}
+
+/**
+ * Asynchronously loops through paginated URLs to fetch data.
+ *
+ * @param {string} url - The initial URL to start pagination from.
+ * @return {void} This function does not return anything.
+ */
+async function paginationLoop(url) {
+  let baseUrl = 'https://www.rei.com/search';
 
   while (true) {
-    let res = await paginationLoop(url);
+    const { html } = await getPage(baseUrl + url);
 
-    if (!res.nextPageUrl) {
+    let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
+
+    for (const link of productLinks) {
+      const { html } = await getPage(baseUrl + link);
+
+      const product = await parseContent(html, {
+        name: 'h1#product-page-title',
+        price: 'span#buy-box-product-price',
+        sku: 'span#product-item-number',
+      });
+
+      console.log(product);
+    }
+
+    let { nextPageUrl } = await getPage(url);
+
+    if (!nextPageUrl) {
       break;
     } else {
-      url = baseUrl + res.nextPageUrl;
+      url = baseUrl + nextPageUrl;
       console.log(url);
     }
   }
+}
+
+(async function main() {
+  paginationLoop('https://www.rei.com/search?q=Backpacks&page=6');
+
+  // const { html } = await getPage(
+  //   'https://www.rei.com/product/231468/osprey-talon-pro-20-pack-mens',
+  // );
+
+  // const product = await parseContent(html, {
+  //   name: 'h1#product-page-title',
+  //   price: 'span#buy-box-product-price',
+  //   sku: 'span#product-item-number',
+  // });
+
+  // console.log(product);
 })();
