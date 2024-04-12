@@ -2,20 +2,47 @@ import * as cheerio from 'cheerio';
 import { proxies } from './lib/config/proxies';
 import fs from 'fs';
 import path from 'path';
+import yargs from 'yargs';
 
-const BASEURLPRODUCT = 'https://www.rei.com';
-const BASEURLPAGINATION = 'https://www.rei.com/search';
+const argv = yargs.options({
+  baseUrl: {
+    alias: 'b',
+    description: 'Base URL for the website',
+    type: 'string',
+    required: true,
+  },
+  firstPageUrl: {
+    alias: 'f',
+    description: 'URL for the first page of results',
+    type: 'string',
+    required: true,
+  },
+  cardSelector: {
+    alias: 'c',
+    description: 'CSS selector for the product cards',
+    type: 'string',
+    required: true,
+  },
+  contentSelectors: {
+    alias: 's',
+    description:
+      'Comma-separated list of CSS selectors for product info (name, price, sku, etc.)',
+    type: 'string',
+    required: true,
+  },
+  output: {
+    alias: 'o',
+    description: 'Output file path',
+    type: 'string',
+    default: 'products.json',
+  },
+  help: {
+    alias: 'h',
+  },
+}).argv;
 
-// --- CLI ---
-// first page URL
-// Base URL
-// article card selector (to extract all articles links in a single pagination page)
-// article page (article content) selector (to extract article info)
-// next page selectors
-// select data format json, csv, or db
-// proxies array to use
-// set timeouts
-// beatifull progressive logging
+const BASEURLPRODUCT = argv.baseUrl;
+const BASEURLPAGINATION = `${argv.baseUrl}/search`;
 
 /**
  * Parses links from the given HTML content using Cheerio.
@@ -66,7 +93,7 @@ export async function getText(html, selector, index) {
  * @param {string} url - The URL of the webpage to fetch
  * @return {Object} An object containing the fetched HTML, the URL of the next page, and the Cheerio object
  */
-export async function getPage(url) {
+async function getPage(url) {
   const html = await fetch(url).then((res) => res.text());
   const $ = cheerio.load(html);
 
@@ -93,18 +120,14 @@ async function parseContent(html, fields) {
  * @param {Array} links - An array of links to be parsed
  * @return {Promise} A promise that resolves when all content pages are parsed
  */
-async function parseAllContentPages(links) {
+async function parseAllContentPages(links, contentSelectors) {
   console.log('🚀 ~ parseAllContentPages ~ links:', links);
   let products = [];
   for (const link of links) {
     console.log(`🚀 ~ contentPageLoop ~ link: ${link}`);
     const { html } = await getPage(BASEURLPRODUCT + link);
 
-    const product = await parseContent(html, {
-      name: 'h1#product-page-title',
-      price: 'span#buy-box-product-price',
-      sku: 'span#product-item-number',
-    });
+    const product = await parseContent(html, contentSelectors);
 
     products.push(product);
 
@@ -121,7 +144,7 @@ async function parseAllContentPages(links) {
  * @param {Array} products - The array of products to be written to the JSON file
  * @param {string} filePath - The file path where the products will be written
  */
-export async function writeProductsToJson(products, filePath) {
+async function writeProductsToJson(products, filePath) {
   // If file already exists, read existing products and concatenate with new products
   let existingProducts = [];
 
@@ -149,12 +172,20 @@ async function paginationLoop(url) {
   while (true) {
     const { html, nextPageUrl } = await getPage(url);
 
-    let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
+    let productLinks = await parseLinks(html, argv.cardSelector);
 
-    const products = await parseAllContentPages(productLinks);
+    const contentSelectors = argv.contentSelectors
+      .split(',')
+      .reduce((acc, cur) => {
+        const [key, value] = cur.split('=');
+        acc[key.trim()] = value.trim();
+        return acc;
+      }, {});
+
+    const products = await parseAllContentPages(productLinks, contentSelectors);
 
     // Write products to JSON file
-    const filePath = path.join(__dirname, 'products.json');
+    const filePath = path.join(__dirname, argv.output);
     await writeProductsToJson(products, filePath);
 
     if (!nextPageUrl) {
@@ -167,5 +198,5 @@ async function paginationLoop(url) {
 }
 
 (async function main() {
-  // paginationLoop('?q=Backpacks&page=6');
+  paginationLoop(argv.firstPageUrl);
 })();
