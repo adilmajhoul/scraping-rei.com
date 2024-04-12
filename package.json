@@ -10,7 +10,8 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "dev": "bun --watch ./src/scrapingReWebsite.js "
+    "dev": "bun --watch ./src/scrapingReWebsite.js ",
+    "cli": "bun keyValueCliTechnique.js convert --person=\"name=John,age=30,city=New York,country=USA,language=English,married=true\""
   },
   "type": "module",
   "dependencies": {
