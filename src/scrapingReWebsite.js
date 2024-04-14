@@ -23,7 +23,7 @@ const BASEURLPAGINATION = 'https://www.rei.com/search';
  * @param {string} html - The HTML content to parse links from.
  * @return {Set} A Set containing unique links extracted from the HTML content.
  */
-async function parseLinks(html, selector) {
+export async function parseLinks(html, selector) {
   // "div#search-results > ul li > a"
   const $ = cheerio.load(html);
 
@@ -66,11 +66,11 @@ export async function getText(html, selector, index) {
  * @param {string} url - The URL of the webpage to fetch
  * @return {Object} An object containing the fetched HTML, the URL of the next page, and the Cheerio object
  */
-export async function getPage(url) {
+export async function getPage(url, nextPageUrlSelector) {
   const html = await fetch(url).then((res) => res.text());
   const $ = cheerio.load(html);
 
-  const nextPageUrl = $("a[data-id='pagination-test-link-next']").attr('href');
+  const nextPageUrl = $(nextPageUrlSelector).attr('href');
 
   return { html, nextPageUrl, $ };
 }
@@ -121,7 +121,10 @@ async function parseAllContentPages(links) {
  * @param {Array} products - The array of products to be written to the JSON file
  * @param {string} filePath - The file path where the products will be written
  */
-export async function writeProductsToJson(products, filePath) {
+export async function writeProductsToJson(products, fileName) {
+  // construct the path
+  const filePath = path.join(__dirname, fileName);
+
   // If file already exists, read existing products and concatenate with new products
   let existingProducts = [];
 
@@ -143,29 +146,31 @@ export async function writeProductsToJson(products, filePath) {
  * @param {string} url - The initial URL for pagination
  * @return {void}
  */
-async function paginationLoop(url) {
-  url = BASEURLPAGINATION + url;
+async function paginationLoop(url, baseUrl) {
+  url = baseUrl + url;
 
   while (true) {
-    const { html, nextPageUrl } = await getPage(url);
+    const { html, nextPageUrl } = await getPage(
+      url,
+      "a[data-id='pagination-test-link-next']",
+    );
 
     let productLinks = await parseLinks(html, 'div#search-results > ul li > a');
 
     const products = await parseAllContentPages(productLinks);
 
     // Write products to JSON file
-    const filePath = path.join(__dirname, 'products.json');
-    await writeProductsToJson(products, filePath);
+    await writeProductsToJson(products, 'companies.json');
 
     if (!nextPageUrl) {
       break;
     } else {
-      url = BASEURLPAGINATION + nextPageUrl;
+      url = baseUrl + nextPageUrl;
       console.log(url);
     }
   }
 }
 
 (async function main() {
-  // paginationLoop('?q=Backpacks&page=6');
+  // paginationLoop('?q=Backpacks&page=6', BASEURLPAGINATION);
 })();
