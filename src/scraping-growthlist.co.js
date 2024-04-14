@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { getPage, parseLinks, writeProductsToJson } from './scrapingReWebsite';
+import { getPage, parseLinks, writeDataToJson } from './scrapingReWebsite';
 
 async function paginationLoop(startingPageUrl) {
   let url = startingPageUrl;
@@ -73,12 +73,6 @@ async function getTableData(link) {
 //   return results.flat(); // Flatten the array of arrays into a single array of objects
 // }
 
-// const links = await paginationLoop(
-//   'https://growthlist.co/author/admin/page/1/',
-// );
-
-// writeProductsToJson(links, 'links.json');
-
 async function processLinks(links) {
   const results = [];
 
@@ -87,18 +81,28 @@ async function processLinks(links) {
     const promises = batch.map((link) => getTableData(link));
     const batchResults = await Promise.all(promises);
 
-    writeProductsToJson(batchResults, 'companies.json');
+    writeDataToJson(batchResults, 'companies.json');
 
     results.push(...batchResults);
   }
 
   return results.flat(); // Flatten the array of arrays into a single array of objects
 }
+
+const links = await paginationLoop(
+  'https://growthlist.co/author/admin/page/1/',
+);
+// write links to json
+writeDataToJson(links, 'links.json');
+
+// comment out this code if you want to run the scraper and remove companies.json
+// file to not write duplicate data
+
 // console.time('Process Links');
 // processLinks(links)
 //   .then((data) => {
 //     // console.log('Data:', data);
-//     return writeProductsToJson(data, 'companies.json');
+//     return writeDataToJson(data, 'companies.json');
 //   })
 //   .then(() => {
 //     console.timeEnd('Process Links');

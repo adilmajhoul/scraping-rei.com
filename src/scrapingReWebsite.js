@@ -121,7 +121,7 @@ async function parseAllContentPages(links) {
  * @param {Array} products - The array of products to be written to the JSON file
  * @param {string} filePath - The file path where the products will be written
  */
-export async function writeProductsToJson(products, fileName) {
+export async function writeDataToJson(products, fileName) {
   // construct the path
   const filePath = path.join(__dirname, fileName);
 
@@ -160,7 +160,7 @@ async function paginationLoop(url, baseUrl) {
     const products = await parseAllContentPages(productLinks);
 
     // Write products to JSON file
-    await writeProductsToJson(products, 'companies.json');
+    await writeDataToJson(products, 'companies.json');
 
     if (!nextPageUrl) {
       break;
