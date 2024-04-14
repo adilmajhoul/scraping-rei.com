@@ -11,7 +11,8 @@
   },
   "scripts": {
     "dev": "bun --watch ./src/scrapingReWebsite.js ",
-    "cli": "bun keyValueCliTechnique.js convert --person=\"name=John,age=30,city=New York,country=USA,language=English,married=true\""
+    "cli": "bun keyValueCliTechnique.js convert --person=\"name=John,age=30,city=New York,country=USA,language=English,married=true\"",
+    "scrap": "bun scraping-growthlist.co.js"
   },
   "type": "module",
   "dependencies": {
