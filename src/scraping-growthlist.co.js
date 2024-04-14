@@ -95,8 +95,8 @@ const links = await paginationLoop(
 // write links to json
 writeDataToJson(links, 'links.json');
 
-// comment out this code if you want to run the scraper and remove companies.json
-// file to not write duplicate data
+// comment out this code if you want to run the scraper and remove companies.json and links.json
+// files to not write duplicate data
 
 // console.time('Process Links');
 // processLinks(links)
