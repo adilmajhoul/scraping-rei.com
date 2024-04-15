@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import { getPage, parseLinks, writeDataToJson } from './scrapingReWebsite';
+import { getPage, parseLinks, writeDataToJson } from './scraping-rei.com';
 
 async function paginationLoop(startingPageUrl) {
   let url = startingPageUrl;
@@ -8,15 +8,14 @@ async function paginationLoop(startingPageUrl) {
   while (true) {
     const { html, nextPageUrl } = await getPage(url, 'div > a.next');
 
-    let links = await parseLinks(html, 'div > div.post-image > a');
+    let newLinks = await parseLinks(html, 'div > div.post-image > a');
 
-    allLinks = [...links, ...allLinks];
+    allLinks = [...allLinks, ...newLinks];
 
     if (!nextPageUrl) {
       break;
     } else {
       url = nextPageUrl;
-      console.log(url);
     }
   }
 
@@ -89,6 +88,7 @@ async function processLinks(links) {
   return results.flat(); // Flatten the array of arrays into a single array of objects
 }
 
+// this part extracts all links of articles
 const links = await paginationLoop(
   'https://growthlist.co/author/admin/page/1/',
 );
