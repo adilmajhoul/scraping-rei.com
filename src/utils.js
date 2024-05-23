@@ -128,6 +128,9 @@ export async function writeDataToJson(products, fileName) {
  * @return {void}
  */
 export async function paginationLoop(url, baseUrl) {
+  // parse product name from link
+  let productType = url.split('&')[0].split('=')[1];
+
   url = baseUrl + url;
 
   while (true) {
@@ -141,7 +144,10 @@ export async function paginationLoop(url, baseUrl) {
     const products = await parseAllContentPages(productLinks);
 
     // Write products to JSON file
-    await writeDataToJson(products, '/extractedData/extractedCompanies.json');
+    await writeDataToJson(
+      products,
+      `/extractedData/${productType}_rei.com.json`,
+    );
 
     if (!nextPageUrl) {
       break;
