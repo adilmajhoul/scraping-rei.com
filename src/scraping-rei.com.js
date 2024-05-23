@@ -1,9 +1,10 @@
+import { paginationLoop } from './utils';
+
 const BASEURLPAGINATION = 'https://www.rei.com/search';
 
-// this is the main
-
 async function main() {
-  paginationLoop('?q=Backpacks&page=6', BASEURLPAGINATION);
+  // scrape bikes and start from page 1 (set what ever category you like and starting page)
+  paginationLoop('?q=bikes', BASEURLPAGINATION);
 }
 
 main().then(console.error);
