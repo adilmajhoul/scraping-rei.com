@@ -1,15 +1,17 @@
 # kardia
 
-To install dependencies:
+#### To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+#### To run:
 
 ```bash
-bun run main.ts
+npm run dev_rei
 ```
 
-This project was created using `bun init` in bun v1.0.36. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+#### To change which category you want to scrape:
+
+change the `'?q=Backpacks&page=6'` at `/src/utils.js` to the category you want and set the starting page for example in here: `'?q=Backpacks&page=6'` the category is **Backpacks** and the srating page is **6**
