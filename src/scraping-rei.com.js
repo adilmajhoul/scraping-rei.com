@@ -1,5 +1,4 @@
 import * as cheerio from 'cheerio';
-import { proxies } from './lib/config/proxies';
 import fs from 'fs';
 import path from 'path';
 
@@ -94,21 +93,25 @@ async function parseContent(html, fields) {
  * @return {Promise} A promise that resolves when all content pages are parsed
  */
 async function parseAllContentPages(links) {
-  console.log('🚀 ~ parseAllContentPages ~ links:', links);
+  console.log({ parsing_links: links });
+
   let products = [];
   for (const link of links) {
-    console.log(`🚀 ~ contentPageLoop ~ link: ${link}`);
     const { html } = await getPage(BASEURLPRODUCT + link);
 
     const product = await parseContent(html, {
       name: 'h1#product-page-title',
       price: 'span#buy-box-product-price',
       sku: 'span#product-item-number',
+      rating: 'span.cdr-rating__number_15-0-0',
+      features: 'ul.cdr-list_15-0-0',
     });
+
+    product.link = BASEURLPRODUCT + link;
 
     products.push(product);
 
-    console.log(`🚀 ~ contentPageLoop ~ product: ${JSON.stringify(product)}`);
+    console.log({ parsed_product: product });
   }
 
   return products;
@@ -160,7 +163,7 @@ async function paginationLoop(url, baseUrl) {
     const products = await parseAllContentPages(productLinks);
 
     // Write products to JSON file
-    await writeDataToJson(products, 'companies.json');
+    await writeDataToJson(products, '/extractedData/extractedCompanies.json');
 
     if (!nextPageUrl) {
       break;
@@ -172,5 +175,5 @@ async function paginationLoop(url, baseUrl) {
 }
 
 (async function main() {
-  // paginationLoop('?q=Backpacks&page=6', BASEURLPAGINATION);
+  paginationLoop('?q=Backpacks&page=6', BASEURLPAGINATION);
 })();

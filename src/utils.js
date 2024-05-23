@@ -12,5 +12,3 @@ export async function measureJsonLength(fileName, fullPath) {
 
   return jsonObjectLength;
 }
-
-measureJsonLength('', '/home/x/CODING/work/kardia/src/companies.json');
