@@ -1,8 +1,8 @@
 # kardia
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kEcTao50OlU/0.jpg)](https://github.com/adilmajhoul/scraping-rei.com/assets/124396997/e75b30ea-235f-4deb-8eef-91a0cda16e72)
+### Video Demonstration:
+[demo.webm](https://github.com/adilmajhoul/scraping-rei.com/assets/124396997/e75b30ea-235f-4deb-8eef-91a0cda16e72)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kEcTao50OlU/0.jpg)](https://www.youtube.com/watch?v=kEcTao50OlU)
 
 #### To install dependencies:
 
